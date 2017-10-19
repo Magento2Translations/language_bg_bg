@@ -1133,7 +1133,7 @@ Backorders,"Поръчки за неналични продукти",module,Mage
 "Add Product To Websites","Добави продукти към уебсайтовете",module,Magento_Catalog
 "Remove Product From Websites","Премахни продукт от уебсайтовете",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Задайте статус ""Невключен"", за да скриете продукт от каталога или резултатите за търсене",module,Magento_Catalog
-"We can't save custom-defined options for bundles with dynamic pricing.","Не можем да спасим потребителски дефинирани опции за връзки с динамично ценообразуване.",module,Magento_Catalog
+"We can't save custom-defined options for bundles with dynamic pricing.","потребителски дефинираните опции с динамично ценообразуване не могат да бъдат запазени.",module,Magento_Catalog
 "Delete Custom Option","Изтрий персонализирана опция",module,Magento_Catalog
 "Sort Custom Options","Сортирай персонализираните опции",module,Magento_Catalog
 "Input Type","Въведи тип",module,Magento_Catalog
@@ -2185,7 +2185,7 @@ label,етикет,module,Magento_Eav
 "Invalid form type.","Невалиден формуляр тип.",module,Magento_Eav
 "Invalid EAV attribute","Невалиден атрибут EAV",module,Magento_Eav
 "Attribute with the same code","Атрибут със същия код",module,Magento_Eav
-"The storefront label is not defined.","Не е дефиниран етикета на витрината.",module,Magento_Eav
+"The storefront label is not defined.","Не е дефиниран етикета на магазина.",module,Magento_Eav
 "Default option value is not defined","Не е дефинирана опцията за стойност по подразбиране",module,Magento_Eav
 "Attribute group with same code already exist. Please rename ""%1"" group","Атрибут група със същия код вече съществува. Преименувайте група ""%1""",module,Magento_Eav
 "Form Element with the same attribute","Форма елемент със същия атрибут",module,Magento_Eav
@@ -2524,7 +2524,7 @@ Never,Никога,module,Magento_Indexer
 "%1 indexer(s) are in ""Update by Schedule"" mode.","%1 indexer(s) са в ""Актуализиране на графика"" режим.",module,Magento_Indexer
 "We couldn't change indexer(s)' mode because of an error.","Ние не може да промени indexer(s) ""режим поради грешка.",module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 indexer(s) са в режим на ""Актуализация на запис"".",module,Magento_Indexer
-"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Един или повече <a href=""%1""> индексиране са невалидни</a>. Уверете се, че вашият <a href=""%2"" target=""_blank""> Magento старица работа</a> се изпълнява.",module,Magento_Indexer
+"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Един или повече от <a href=""%1""> индексите</a> са невалидни. Уверете се, че <a href=""%2"" target=""_blank""> Magento Cron Job</a> се изпълнява редовно.",module,Magento_Indexer
 "State for the same indexer","Положение за същия индексатор",module,Magento_Indexer
 "State for the same view","Положение за същия изглед",module,Magento_Indexer
 "Field '%1' not found","Поле ""%1"" не е намерен",module,Magento_Indexer
@@ -3699,7 +3699,7 @@ Capture,Улавяне,module,Magento_Sales
 "Order Status","Статус на поръчката",module,Magento_Sales
 "Order State","Състояние на поръчката",module,Magento_Sales
 "Use Order Status As Default","Използва състоянието на поръчката по подразбиране",module,Magento_Sales
-"Visible On Storefront","Видим на витрина",module,Magento_Sales
+"Visible On Storefront","Видим в магазина",module,Magento_Sales
 "Edit Order Status","Редактиране на статус на поръчка",module,Magento_Sales
 "Save Status","Запиши статус",module,Magento_Sales
 "New Order Status","Състояние на нова поръчка",module,Magento_Sales
@@ -3848,7 +3848,7 @@ Company,Фирма,module,Magento_Sales
 State/Province,"Щат / Провинция",module,Magento_Sales
 "Phone Number",Телефон,module,Magento_Sales
 "Zip/Postal Code","Пощенски код",module,Magento_Sales
-"We don't have enough information to save the parent transaction ID.","Не разполагаме с достатъчно информация, за да спасим основният ИД на транзакция.",module,Magento_Sales
+"We don't have enough information to save the parent transaction ID.","Не разполагаме с достатъчно информация, за записване на основната трансакция.",module,Magento_Sales
 "New Orders","New Поръчки",module,Magento_Sales
 "We found an invalid quantity to invoice item ""%1"".","We found an invalid quantity to Фактура item ""%1"".",module,Magento_Sales
 """Shipment Document Validation Error(s):\n"" .","""Пратка документ утвърждаване грешки: \n"" .",module,Magento_Sales
@@ -4056,7 +4056,7 @@ Shipments,Доставки,module,Magento_Shipping
 "We don't recognize or support the file extension in this shipment: %1.","Не се признава или поддържа разширението на файла в пратка %1.",module,Magento_Shipping
 "We can't initialize shipment for delete tracking number.","Не може да инициализира експедиционна бележка за изтриване на номер за проследяване.",module,Magento_Shipping
 "We can't delete tracking number.","Не може да изтрие номер за проследяване.",module,Magento_Shipping
-"We can't load track with retrieving identifier right now.","Не може да зареди песен със спасителни идентификатор точно сега.",module,Magento_Shipping
+"We can't load track with retrieving identifier right now.","Проследяването не може да бъде извършено в момента.",module,Magento_Shipping
 "We can't save the shipment right now.","Не може да запише сегмента точно сега.",module,Magento_Shipping
 """Shipment Document Validation Error(s):\n"" .","""Пратка документ утвърждаване грешки: \n"".",module,Magento_Shipping
 "The shipment has been created.","Превозът е бил създаден.",module,Magento_Shipping
@@ -4206,7 +4206,7 @@ Yearly,Годишно,module,Magento_Sitemap
 Never,Никога,module,Magento_Sitemap
 "File handler unreachable","Файлът с манипулатора не е достъпен",module,Magento_Sitemap
 "Please define a correct path.","Моля определете правилния път.",module,Magento_Sitemap
-"Please create the specified folder ""%1"" before saving the sitemap.","Моля, създайте указаната папка ""%1"" преди записването на сайта.",module,Magento_Sitemap
+"Please create the specified folder ""%1"" before saving the sitemap.","Моля, създайте папка с име ""%1"" преди да запишете Картата на сайта (sitemap).",module,Magento_Sitemap
 "Please make sure that ""%1"" is writable by the web-server.","Моля уверете се, че ""%1"" се записва от уеб-сървър.",module,Magento_Sitemap
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscores (_) in the filename. No spaces or other characters are allowed.","Моля, използвайте само букви (a-z или A-Z), цифри (0-9) или знаци за подчертаване (_) в името на файла. Без интервали или други знаци са позволени.",module,Magento_Sitemap
 None,Николко,module,Magento_Sitemap
@@ -4528,7 +4528,7 @@ Close,Затвори,module,Magento_Theme
 Time,Време,module,Magento_Theme
 Hour,Час,module,Magento_Theme
 Minute,Минута,module,Magento_Theme
-"Dictionary (Translation on Storefront side)","Речник (превод на витрина страна)",module,Magento_Translation
+"Dictionary (Translation on Storefront side)","Речник (превод на магазина)",module,Magento_Translation
 "Embedded (Translation on Admin side)","Вградени (превод от страна на администратор)",module,Magento_Translation
 "Error while translating phrase ""%s"" in file %s.","Грешка при превода фраза ""%s"" във файла %s.",module,Magento_Translation
 "Error while generating js translation dictionary: ""%s""","Грешка при генериране js преводачески речник: ""%s""",module,Magento_Translation
@@ -4827,7 +4827,7 @@ Widget,Джаджа,module,Magento_Widget
 "Custom Layouts","Оформление по подразбиране",module,Magento_Widget
 "Page Layouts","Оформления на страница",module,Magento_Widget
 "Please Select Container First","Моля първо изберете контейнер",module,Magento_Widget
-"Storefront Properties","Витрина свойства",module,Magento_Widget
+"Storefront Properties","Настройки на магазина",module,Magento_Widget
 Type,Тип,module,Magento_Widget
 "Design Package/Theme","Пакет/тема дизайн",module,Magento_Widget
 "Widget Title","Заглавие на джаджа",module,Magento_Widget
