@@ -3386,7 +3386,7 @@ Reviews,Отзиви,module,Magento_Review
 "You deleted the rating.","Изтрихте рейтинга",module,Magento_Review
 Ratings,Рейтинги,module,Magento_Review
 "You saved the rating.","Записахте рейтинга.",module,Magento_Review
-"My Product Reviews","Моя продукт Отзиви",module,Magento_Review
+"My Product Reviews","Моите отзиви за продукти",module,Magento_Review
 "Cannot initialize product","Не може да инициализира продукт",module,Magento_Review
 "You submitted your review for moderation.","Подадохте вашия отзив за моделиране.",module,Magento_Review
 "We can't post your review right now.","Не може да публикувате вашия пост точно сега.",module,Magento_Review
