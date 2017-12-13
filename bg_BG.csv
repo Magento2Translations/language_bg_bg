@@ -284,7 +284,7 @@ Order,Поръчка,module,Magento_Backend
 "Please try to sign out and sign in again.","Моля излезте и влезте отново.",module,Magento_Backend
 "If you continue to receive this message, please contact the store owner.","Ако продължите да получавате това съобщение, моля да се свържете със собственика на магазина.",module,Magento_Backend
 "You need more permissions to access this.","Трябват Ви повече правомощия за достъп до това.",module,Magento_Backend
-"Welcome, please sign in","Добре дошли, моля влезте в",module,Magento_Backend
+"Welcome, please sign in","Добре дошли, моля влезте",module,Magento_Backend
 Username,"Потребителско име",module,Magento_Backend
 "user name","потребителско име",module,Magento_Backend
 Password,Парола,module,Magento_Backend
@@ -530,7 +530,7 @@ Always,Винаги,module,Magento_Captcha
 "The fewest you may purchase is %1.","Можете да закупите най-малко %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Моля коригирайте количеството на някои продукти.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Можете за закупите най-много %1.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","Не са толкова \"%1\" колкото поиска.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","Не е налично заявеното от продукт ""%1"".",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Не са толкова ""%1"" колкото поискахте, но ще поръчаме останалите %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Не разполагаме с ""%1"" в исканото количество, така ще поръчаме останалите %2.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","Можете да закупите %1 само в количества от %2 в даден момент.",module,Magento_CatalogInventory
@@ -725,9 +725,9 @@ Comparable,Сравним,module,Magento_Catalog
 "Add New","Добави нов",module,Magento_Catalog
 Back,Назад,module,Magento_Catalog
 Reset,Изчисти,module,Magento_Catalog
-"You are about to delete all products in this attribute set. Are you sure you want to do that?","На път сте да изтриете всички продукти в този атрибут сет. Сигурни ли сте, че искате да направите това?",module,Magento_Catalog
+"You are about to delete all products in this attribute set. Are you sure you want to do that?","На път сте да изтриете всички продукти от група атрибути. Сигурни ли сте, че искате да направите това?",module,Magento_Catalog
 "New Set Name","Име на новия сет",module,Magento_Catalog
-"Edit Attribute Set '%1'","Промени Атрибут Сет'%1'",module,Magento_Catalog
+"Edit Attribute Set '%1'","Промени група атрибути '%1'",module,Magento_Catalog
 Empty,Празно,module,Magento_Catalog
 "Add Attribute","Добави атрибут",module,Magento_Catalog
 "Add New Group","Добави нова група",module,Magento_Catalog
@@ -861,7 +861,7 @@ Products,Продукти,module,Magento_Catalog
 "You saved the product.","Запазихте продукта.",module,Magento_Catalog
 "SKU for product %1 has been changed to %2.","Кат. номер за продукт %1 е променен на %2.",module,Magento_Catalog
 "The image cannot be removed as it has been assigned to the other image role","Изображението не може да бъде премахнато, защото му е зададена друга роля",module,Magento_Catalog
-"New Attribute Set","Нов атрибут сет",module,Magento_Catalog
+"New Attribute Set","Нова група атрибути",module,Magento_Catalog
 "The attribute set has been removed.","Този атрибут е премахнат.",module,Magento_Catalog
 "We can't delete this set right now.","Не може да изтриете този набор точно сега.",module,Magento_Catalog
 "New Set","Нова група",module,Magento_Catalog
@@ -869,7 +869,7 @@ Products,Продукти,module,Magento_Catalog
 "Manage Attribute Sets","Управление на групи атрибути",module,Magento_Catalog
 "This attribute set no longer exists.","Този атрибут вече не съществува",module,Magento_Catalog
 "You saved the attribute set.","Вие запазихте групата атрибути.",module,Magento_Catalog
-"Something went wrong while saving the attribute set.","Нещо се обърка докато запазвахте атрибут сета.",module,Magento_Catalog
+"Something went wrong while saving the attribute set.","Нещо се обърка докато запазвахте групата атрибути.",module,Magento_Catalog
 "You added product %1 to the comparison list.","Добавихте продукт %1 към листа за сравнение.",module,Magento_Catalog
 "You cleared the comparison list.","Изчистихте списъка за сравнение.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Нещо се обърка докато изчиствахте списъка за сравнение.",module,Magento_Catalog
@@ -1451,7 +1451,7 @@ Yes,Да,module,Magento_Config
 Stores,Магазини,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Добави конфигурируеми атрибути към настоящата група атрибути (""%1"")",module,Magento_ConfigurableProduct
 "New attribute set name","Задай име на нов атрибут",module,Magento_ConfigurableProduct
-"Add configurable attributes to the existing Attribute Set","Добави конфигируеми атрибути към съществуващ Атрибут Сет",module,Magento_ConfigurableProduct
+"Add configurable attributes to the existing Attribute Set","Добави конфигурируеми атрибути към съществуваща група атрибути",module,Magento_ConfigurableProduct
 "Choose existing Attribute Set","Изберете съществуващ атрибут сет",module,Magento_ConfigurableProduct
 Configurations,Конфигурации,module,Magento_ConfigurableProduct
 "Parent product does not have configurable product options","Основният продукт няма конфигурируеми продуктови опции",module,Magento_ConfigurableProduct
@@ -2125,16 +2125,16 @@ Dropdown,"Падащо меню",module,Magento_Eav
 "Cannot save attributeGroup","Не може да запише атрибут група",module,Magento_Eav
 "Group with id ""%1"" does not exist.","Група с Ид ""%1"" не съществува.",module,Magento_Eav
 "Cannot delete attributeGroup with id %1","Не може да изтрие атрибут група с ИД %1",module,Magento_Eav
-"AttributeSet with id ""%1"" does not exist.","Атрибут сет с ИД ""%1"" не съществува.",module,Magento_Eav
-"Wrong attribute set id provided","Предоставен грешен ИД на атрибут сет",module,Magento_Eav
+"AttributeSet with id ""%1"" does not exist.","Група атрибути с идентификатор ""%1"" не съществува.",module,Magento_Eav
+"Wrong attribute set id provided","Предоставен грешен идентификатор на група атрибути",module,Magento_Eav
 "Attribute group does not belong to attribute set","Атрибут група не принадлежи на атрибут",module,Magento_Eav
-"Attribute set not found: %1","Атрибут сет не е намерен: %1",module,Magento_Eav
+"Attribute set not found: %1","Група атрибути не е намерена: %1",module,Magento_Eav
 "Attribute ""%1"" not found in attribute set %2.","Атрибут ""%1"" не е намерен в атрибут комплект %2.",module,Magento_Eav
 "System attribute can not be deleted","Системен атрибут не може да бъде изтрит",module,Magento_Eav
 "Cannot save attribute","Не може да запише атрибут",module,Magento_Eav
 "Attribute with attributeCode ""%1"" does not exist.","Атрибут с атрибут код ""%1"" не съществува.",module,Magento_Eav
 "Cannot delete attribute.","Не може да изтрие атрибут.",module,Magento_Eav
-"Attribute with id ""%1"" does not exist.","Атрибут сет с ИД ""%1"" не съществува.",module,Magento_Eav
+"Attribute with id ""%1"" does not exist.","Група атрибути с идентификатор ""%1"" не съществува.",module,Magento_Eav
 "There was an error saving attribute set.","Възникна грешка при записване на атрибут.",module,Magento_Eav
 "Default attribute set can not be deleted","Атрибут набор по подразбиране не може да бъде изтрит",module,Magento_Eav
 "There was an error deleting attribute set.","Възникна грешка при изтриване на атрибут група.",module,Magento_Eav
@@ -2150,7 +2150,7 @@ Dropdown,"Падащо меню",module,Magento_Eav
 "Invalid backend model specified: %1","Невалиден бекенд модел, определен: %1",module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","Изходен модел ""%1"" не е намерена за атрибута ""%2""",module,Magento_Eav
 "The value of attribute ""%1"" must be set","Стойността на атрибут ""%1"" трябва да бъде зададен",module,Magento_Eav
-"The value of attribute ""%1"" must be unique","Стойността на атрибут ""%1"" трябва да е униклана",module,Magento_Eav
+"The value of attribute ""%1"" must be unique","Стойността на атрибут ""%1"" трябва да е уникална",module,Magento_Eav
 "Invalid date","невалидна дата",module,Magento_Eav
 "Empty attribute code","Празен атрибут код",module,Magento_Eav
 "Attribute %1 doesn't work with options","Атрибут %1 не работи с опции",module,Magento_Eav
@@ -2159,7 +2159,7 @@ Dropdown,"Падащо меню",module,Magento_Eav
 "Cannot load options for attribute %1","Не може да зареди опции за атрибут %1",module,Magento_Eav
 "Attribute %1 does not contain option with Id %2","Атрибут %1 не съдържа вариант с Id %2",module,Magento_Eav
 "Entity attribute with id ""%1"" not found","Атрибут на обект с ИД ""%1"" не е намерен",module,Magento_Eav
-"Attribute set name is empty.","Името на атрибут сета е празно.",module,Magento_Eav
+"Attribute set name is empty.","Името на групата атрибути е празно.",module,Magento_Eav
 "An attribute set named ""%1"" already exists.","Зададеното име на атрибут ""%1"" вече съществува.",module,Magento_Eav
 "No options found.","Няма открити варианти.",module,Magento_Eav
 label,етикет,module,Magento_Eav
@@ -2193,7 +2193,7 @@ label,етикет,module,Magento_Eav
 "Form Type with the same code","Тип формуляр със същия код",module,Magento_Eav
 "The value of attribute ""%1"" is invalid.","Стойността на атрибута ""%1"" е невалидна.",module,Magento_Eav
 "Wrong entity ID","Грешна стойност на ИД",module,Magento_Eav
-"Wrong attribute set ID","Грешен атрибут сет ИД",module,Magento_Eav
+"Wrong attribute set ID","Грешен идентификатор на групата атрибути",module,Magento_Eav
 "Wrong attribute group ID","Грешен атрибут ИД на група",module,Magento_Eav
 "AttributeSet does not exist.","Атрибут група не съществува.",module,Magento_Eav
 hello,здравейте,module,Magento_Eav
@@ -2385,7 +2385,7 @@ Remove,Премахване,module,Magento_GroupedProduct
 ID,ИД,module,Magento_GroupedProduct
 Thumbnail,Миниатюра,module,Magento_GroupedProduct
 Name,Име,module,Magento_GroupedProduct
-"Attribute Set","Атрибут Сет",module,Magento_GroupedProduct
+"Attribute Set","Група атрибути",module,Magento_GroupedProduct
 Status,Статус,module,Magento_GroupedProduct
 SKU,"Кат. номер",module,Magento_GroupedProduct
 Price,Цена,module,Magento_GroupedProduct
@@ -3105,7 +3105,7 @@ Subtotal,"Междинна сума",module,Magento_Quote
 "We found an item options declaration error.","Намерихме грешка в декларацията за опции на продукти.",module,Magento_Quote
 "Some of the selected options are not currently available.","Някои от избраните опции в момента не са налични.",module,Magento_Quote
 "Selected option(s) or their combination is not currently available.","Избраните опции или комбинацията от тях в момента не са достъпни.",module,Magento_Quote
-"Some item options or their combination are not currently available.","Някои опции за елемент или тяхната комбинация не са налични в момента.",module,Magento_Quote
+"Some item options or their combination are not currently available.","Някои опции за продукта или тяхната комбинация не са налични в момента.",module,Magento_Quote
 "Cart %1 does not contain item %2","Количка %1 не съдържа елемента %2",module,Magento_Quote
 "Could not save quote","Не може да запише оферта",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","Количка %1 не съдържа елемент %2",module,Magento_Quote
@@ -5194,6 +5194,8 @@ Footer,"Долен колонтитул",theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","За съжаление, но нещо се обърка. Моля свържете се с продавача.",module,Magento_Authorizenet
 "We could not detect a size.","Не успяхме да открием размер.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Не разпознаваме или не поддържаме този тип файлово разширение.",module,Magento_Backend
+"Warning message","Предупредително съобщение",module,Magento_Backend
+"This operation can take a long time","Тази операция може да отнеме повече време",module,Magento_Backend
 "This payment is not available","Това плащане не е налично",module,Magento_Braintree
 MM,ММ,module,Magento_Braintree
 YY,ГГ,module,Magento_Braintree
@@ -5426,6 +5428,7 @@ Content,Съдържание,module,Magento_Backend
 Elements,Елементи,module,Magento_Backend
 Design,Дизайн,module,Magento_Backend
 Schedule,График,module,Magento_Backend
+"Content translation","Превод на съдържание",module,Magento_Backend
 Settings,Настройки,module,Magento_Backend
 Attributes,Атрибути,module,Magento_Backend
 "Other Settings","Други настройки",module,Magento_Backend
@@ -5642,6 +5645,7 @@ Select...,Изберете...,module,Magento_Bundle
 Status,Статус,module,Magento_Bundle
 Thumbnail,"Умалено изображение",module,Magento_Bundle
 Type,Тип,module,Magento_Bundle
+"Special Price","Специална цена",module,Magento_Bundle
 "Enable CAPTCHA in Admin","Разреши CAPTCHA в администратративната част",module,Magento_Captcha
 Font,Шрифт,module,Magento_Captcha
 Forms,Форми,module,Magento_Captcha
@@ -5842,7 +5846,7 @@ Layout,Изглед,module,Magento_Catalog
 "Layout Update XML","Актуализацията на оформлението на XML",module,Magento_Catalog
 "Apply Design to Products","Приложи дизайна на продуктите",module,Magento_Catalog
 "Schedule Design Update","График за актуализация на дизайна",module,Magento_Catalog
-AttributeSetText,ТекстАтрибутСет,module,Magento_Catalog
+AttributeSetText,ТекстГрупаАтрибути,module,Magento_Catalog
 StatusText,ТекстСтатус,module,Magento_Catalog
 "Product Image Watermarks","Водни знаци за продуктови изображения",module,Magento_Catalog
 Base,База,module,Magento_Catalog
@@ -6247,7 +6251,7 @@ Enable,Разреши,module,Magento_GoogleAnalytics
 Select...,Изберете...,module,Magento_GroupedProduct
 Type,Тип,module,Magento_GroupedProduct
 Quantity,Количество,module,Magento_GroupedProduct
-AttributeSetText,АтрибутСетТекст,module,Magento_GroupedProduct
+AttributeSetText,ГрупаАтрибутиТекст,module,Magento_GroupedProduct
 StatusText,ТекстСтатус,module,Magento_GroupedProduct
 ID,"Идентификационнен номер",module,Magento_ImportExport
 "Start Date&Time","Начална дата & време",module,Magento_ImportExport
