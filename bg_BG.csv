@@ -104,7 +104,7 @@ Guest,Гост,module,Magento_Backend
 Items,Продукти,module,Magento_Backend
 Total,Общо,module,Magento_Backend
 "Lifetime Sales","Всички продажби",module,Magento_Backend
-"Average Order","Средна поръчка",module,Magento_Backend
+"Average Order","Средна стойност на поръчка",module,Magento_Backend
 Average,Среден,module,Magento_Backend
 Product,Продукт,module,Magento_Backend
 Price,Цена,module,Magento_Backend
@@ -121,7 +121,7 @@ Shipping,Доставка,module,Magento_Backend
 "What is this?","Какво е това?",module,Magento_Backend
 "Save Account",Запиши,module,Magento_Backend
 "My Account","Моята сметка",module,Magento_Backend
-"Account Information","Информация за сметката",module,Magento_Backend
+"Account Information","Информация за профила",module,Magento_Backend
 "User Name","Потребителско име",module,Magento_Backend
 "First Name","Първо име",module,Magento_Backend
 "Last Name",Фамилия,module,Magento_Backend
@@ -343,6 +343,7 @@ Actions,Действия,module,Magento_Backend
 "Unselect Visible","Премахни избора на видими",module,Magento_Backend
 "Changes have been made to this section that have not been saved.","В тази секция са направени промени, които не са запазени.",module,Magento_Backend
 "This tab contains invalid data. Please resolve this before saving.","Този раздел съдържа невалидни данни. Моля, оправете това преди записване.",module,Magento_Backend
+"The information in this tab has been changed.","Информацията в този таб ще бъде променена.",module,Magento_Backend
 Loading...,"Зарежда се ...",module,Magento_Backend
 "System Backup","Системен архив",module,Magento_Backup
 "Database Backup","Архив на база данни",module,Magento_Backup
@@ -1814,9 +1815,9 @@ Customer,Клиент,module,Magento_Customer
 "Last Logged In (%1):","Последно влизане (%1):",module,Magento_Customer
 "Account Lock:","потребителски профил заключен:",module,Magento_Customer
 "Confirmed email:","Потвърден имейл",module,Magento_Customer
-"Account Created:","Създаден профил:",module,Magento_Customer
-"Account Created on (%1):","потребителски профил Created on (%1):",module,Magento_Customer
-"Account Created in:","Профил създаден на:",module,Magento_Customer
+"Account Created:","Регистриран на:",module,Magento_Customer
+"Account Created on (%1):","Регистриран на (%1):",module,Magento_Customer
+"Account Created in:","Регистриран на:",module,Magento_Customer
 "Customer Group:","Клиентска група:",module,Magento_Customer
 "Default Billing Address","По подразбиране адрес за фактуриране",module,Magento_Customer
 "Sales Statistics","Статистика за продажбите",module,Magento_Customer
@@ -4510,7 +4511,7 @@ Remove,Премахни,module,Magento_Theme
 "For the best experience on our site, be sure to turn on Javascript in your browser.","За най-добър опит на нашия сайт не забравяйте да включите Javascript във вашия браузър.",module,Magento_Theme
 "Local Storage seems to be disabled in your browser.","Местното съхранение е прекъсното във вашия браузър.",module,Magento_Theme
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","За най-добър опит на нашия сайт не забравяйте да включите местни съхранение във вашия браузър.",module,Magento_Theme
-"This is demo store. No orders will be fulfilled.","Това е демо магазин. Няма поръчки ще бъдат изпълнени.",module,Magento_Theme
+"This is demo store. No orders will be fulfilled.","Това е демо магазин. Направените поръчки няма да бъдат бъдат изпълнени.",module,Magento_Theme
 "Items %1 to %2 of %3 total","Артикули %1 до %2 от %3 общо",module,Magento_Theme
 "%1 Item","%1 Артикул",module,Magento_Theme
 "%1 Item(s)","%1 елемент(и)",module,Magento_Theme
@@ -4989,7 +4990,7 @@ Update,Обновяване,module,Magento_Checkout
 Cancel,Откажи,module,Magento_Checkout
 "Save in address book","Запиши в адресната книга",module,Magento_Checkout
 "Estimated Total","Изчисли всичко",module,Magento_Checkout
-"You can create an account after checkout.","Можете да създадете акаунт след приключване на поръчката.",module,Magento_Checkout
+"You can create an account after checkout.","Можете да се регистрирате след завършване на поръчката.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Вече имате акаунт. Влезете или да продължете като гост.",module,Magento_Checkout
 Login,Вход,module,Magento_Checkout
 "See Details","Виж детайли",module,Magento_Checkout
@@ -6088,7 +6089,7 @@ Phone,Телефон,module,Magento_Customer
 ZIP,"Пощенски код",module,Magento_Customer
 "Customer Since","Клиенти от",module,Magento_Customer
 "Confirmed email","Потвърден имейл",module,Magento_Customer
-"Account Created in","Потребителски профил създаден на",module,Magento_Customer
+"Account Created in","Регистриран на",module,Magento_Customer
 "Tax VAT Number","Данъчен номер по ДДС",module,Magento_Customer
 "Billing Firstname","Име за фактуриране",module,Magento_Customer
 "Billing Lastname","Фамилия за фактуриране",module,Magento_Customer
@@ -6924,7 +6925,7 @@ Rate,Оценка,module,Magento_Tax
 Empty,Празен,module,Magento_Theme
 "1 column","1 колона",module,Magento_Theme
 Configuration,Конфигурация,module,Magento_Theme
-"Default welcome msg!","По подразбиране добре дошли съобщение!",module,Magento_Theme
+"Default welcome msg!","Съобщение за Добре дошли!",module,Magento_Theme
 "Copyright © 2013-2017 Magento, Inc. All rights reserved.","Copyright © 2013-2017 Magento, Inc. Всички права запазени.",module,Magento_Theme
 "Design Config Grid","Дизайн за конфигуриране тип мрежа",module,Magento_Theme
 "Rebuild design config grid index","Възстанови дизайн довереник мрежа индекс",module,Magento_Theme
