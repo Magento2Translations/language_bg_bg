@@ -15,6 +15,7 @@ Notifications,Известия,module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","Общо %1 запис(а) бяха премахнати.",module,Magento_AdminNotification
 "We couldn't remove the messages because of an error.","Не успяхме да премахнем съобщенията поради грешка.",module,Magento_AdminNotification
 "The message has been removed.","Съобщението беше премахнато.",module,Magento_AdminNotification
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Прегледахте и разрешихте всички последни системни съобщения. Моля, опреснете уеб страницата, за да изчистите предупреждението.",module,Magento_AdminNotification
 "1 Hour","1 час",module,Magento_AdminNotification
 "2 Hours","2 часа",module,Magento_AdminNotification
 "6 Hours","6 часа",module,Magento_AdminNotification
@@ -27,6 +28,7 @@ notice,известие,module,Magento_AdminNotification
 "Wrong message type","Грешен тип съобщение",module,Magento_AdminNotification
 "Wrong notification ID specified.","Зададено е грешно ID на съобщение.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} не е препоръчителен за използване в продукционна среда, за да се декларира Основния не-сигурен URL. Силно Ви препоръчваме да промените стойността във Вашата Magento <a href=""%1"">конфигурация</a>.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Един или няколко вида кеш бяха анулирани: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Моля, отидете на <a href=""%1"">Управление на кеширането</a> и опреснете всички видове кеш.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Ние не успяхме да синхронизираме един или повече медийни файлове. Моля, вижте лог файловете за повече информация.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Синхронизацията на медийните хранилища приключи.",module,Magento_AdminNotification
@@ -37,10 +39,53 @@ notice,известие,module,Magento_AdminNotification
 "System messages","Системни съобщения",module,Magento_AdminNotification
 Close,Затвори,module,Magento_AdminNotification
 "See All (","Виж всички (",module,Magento_AdminNotification
+" unread)"," непрочетени)",module,Magento_AdminNotification
 "Please correct the data sent.","Моля коригирайте изпратените данни.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","Не е намерен обект тип модел ""%1""",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Типовият модел трябва да бъде инстанция на \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Няма продуктови типове за експорт",module,Magento_AdvancedPricingImportExport
+"Related Search Terms","Сродни термини за търсене",module,Magento_AdvancedSearch
+"Add New Search Term","Добави нов термин за търсене",module,Magento_AdvancedSearch
+button_label,етикет_на_бутона,module,Magento_AdvancedSearch
+"Missing search engine parameter.","Липсващ параметър на търсещата машина.",module,Magento_AdvancedSearch
+"Successful! Test again?","Успешно! Тествай отново?",module,Magento_AdvancedSearch
+"Connection failed! Test again?","Неуспешна връзка! Пробвай отново?",module,Magento_AdvancedSearch
+"Subscription status","Статут на абонамент",module,Magento_Analytics
+"Sorry, there has been an error processing your request. Please try again later.","За съжаление, е имало грешка при обработката на заявката Ви. Моля, опитайте отново по-късно.",module,Magento_Analytics
+"Cron settings can't be saved","Cron настройките не могат да бъдат записани",module,Magento_Analytics
+"There was an error save new configuration value.","Възникна грешка при записване нова конфигурационна стойност.",module,Magento_Analytics
+"--Please Select--","--Моля, изберете--",module,Magento_Analytics
+"Command was not found.","Командата не е намерена.",module,Magento_Analytics
+"These arguments can't be empty ""%1""","Тези аргументи не могат да бъдат празни ""%1""",module,Magento_Analytics
+"Cannot find predefined integration user!","Не може да намери предефиниран потребител за интеграция!",module,Magento_Analytics
+"File is not ready yet.","Файлът все още не е готов.",module,Magento_Analytics
+"Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Вашето основен URL адрес е променен и вашите отчети се актуализират. Разширено отчитане ще бъде на разположение, след като тази промяна е завърши. Моля, опитайте отново по-късно.",module,Magento_Analytics
+"Failed to synchronize data to the Magento Business Intelligence service. ","Не може да синхронизира данните към услугата на Magento Business Intelligence. ",module,Magento_Analytics
+TestMessage,"Тестово съобщение",module,Magento_Analytics
+"Apps and Games","Приложения и игри",module,Magento_Analytics
+"Athletic/Sporting Goods","Атлетически/спортни стоки",module,Magento_Analytics
+"Art and Design","Изкуство и дизайн",module,Magento_Analytics
+"Advanced Reporting","Разширено отчитане",module,Magento_Analytics
+"Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.","Спечелете нови идеи за управлението на ефективността на вашия бизнес, използвайки нашите динамични продукт, поръчки и клиентски отчети, съобразени с вашите клиентски данни.",module,Magento_Analytics
+"Go to Advanced Reporting","Отиди на разширена отчетност",module,Magento_Analytics
+Back,Назад,module,Magento_AsynchronousOperations
+Done,Готово,module,Magento_AsynchronousOperations
+Retry,"Опитай отново",module,Magento_AsynchronousOperations
+"'Action Details - #' .","""Данни за действие - #"".",module,Magento_AsynchronousOperations
+"%1 item(s) have been scheduled for update.""","%1 елемент(и) са планирани за обновяване.""",module,Magento_AsynchronousOperations
+"Bulk Actions Log","Регистър на множествените действия",module,Magento_AsynchronousOperations
+"%1 item(s) are currently being updated.","%1 елемент(и) се актуализират в момента.",module,Magento_AsynchronousOperations
+"Task ""%1"": ","Задача ""%1"": ",module,Magento_AsynchronousOperations
+"%1 item(s) have been scheduled for update.","%1 елемент(и) са планирани за обновяване.",module,Magento_AsynchronousOperations
+"%1 item(s) have been successfully updated.","%1 елемент(и) са актуализирани успешно.",module,Magento_AsynchronousOperations
+"%1 item(s) failed to update","%1 елемент(и) не успяха да се актуализират",module,Magento_AsynchronousOperations
+Details,Детайли,module,Magento_AsynchronousOperations
+"View Details","Виж детайли",module,Magento_AsynchronousOperations
+Dismiss,Отхвърляне,module,Magento_AsynchronousOperations
+"Pending, in queue...","Очакване, на опашката...",module,Magento_AsynchronousOperations
+"%1 items selected for mass update","%1 елементи избрани за масова актуализация",module,Magento_AsynchronousOperations
+", %1 successfully updated",", %1 успешно актуализиран",module,Magento_AsynchronousOperations
+", %1 failed to update",", %1 не успя да се актуализира",module,Magento_AsynchronousOperations
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Нещо се обърка при съставянето на списък на разрешените ресурси. Можете да намерите повече информация в регистрационния файл на изключения.",module,Magento_Authorization
 "You created the order.","Вие направихте поръчката.",module,Magento_Authorizenet
 "Order saving error: %1","Грешка при запазване на поръчката: %1",module,Magento_Authorizenet
@@ -79,6 +124,7 @@ void,анулирай,module,Magento_Authorizenet
 "Credit Card Number","Номер на кредитна карта",module,Magento_Authorizenet
 "Expiration Date","Срок на валидност",module,Magento_Authorizenet
 "Card Verification Number","Номер за проверка на картата",module,Magento_Authorizenet
+"Fraud Detection ","Разкриване на измами ",module,Magento_Authorizenet
 "FDS Filter Action","FDS филтър действие",module,Magento_Authorizenet
 "AVS Response","AVS отговор",module,Magento_Authorizenet
 "Card Code Response","Отговор за код на картата",module,Magento_Authorizenet
@@ -160,9 +206,9 @@ General,Главен,module,Magento_Backend
 Cancel,Откажи,module,Magento_Backend
 "Delete %1 '%2'","Изтрий %1 '%2'",module,Magento_Backend
 "Delete %1","Изтрий %1",module,Magento_Backend
-"Create DB Backup","Създаване на резервно копие",module,Magento_Backend
-Yes,Да,module,Magento_Backend
 No,Не,module,Magento_Backend
+Yes,Да,module,Magento_Backend
+"Create DB Backup","Създаване на резервно копие",module,Magento_Backend
 "Delete Store","Изтрий магазин",module,Magento_Backend
 "Delete Web Site","Изтриване на уеб сайт",module,Magento_Backend
 "Save Web Site","Запази уеб сайт",module,Magento_Backend
@@ -206,6 +252,7 @@ To,До,module,Magento_Backend
 "Date selector","Селектор на дата",module,Magento_Backend
 "[ deleted ]",[изтрит],module,Magento_Backend
 "Select All","Избери всички",module,Magento_Backend
+" [deleted]",[заличава],module,Magento_Backend
 "We couldn't find any records.","Не открихме никакви записи.",module,Magento_Backend
 "Add New","Добави нов",module,Magento_Backend
 Export,Експорт,module,Magento_Backend
@@ -261,6 +308,7 @@ System,Система,module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","Преди да промените кода на сайта се уверете, че той не се използва в index.php.",module,Magento_Backend
 "The store does not exist","Магазинът не съществува",module,Magento_Backend
 "Store view doesn't exist","Изгледът на магазина не съществува",module,Magento_Backend
+"New ","Нов ",module,Magento_Backend
 "All Stores","Всички магазини",module,Magento_Backend
 "You saved the website.","Вие записахте уебсайта.",module,Magento_Backend
 "The default store cannot be disabled","Магазин по подразбиране не може да бъде спрян",module,Magento_Backend
@@ -274,6 +322,13 @@ System,Система,module,Magento_Backend
 YTD,"От началото на годината",module,Magento_Backend
 Order,Поръчка,module,Magento_Backend
 "Order #%1","Поръчка #%1",module,Magento_Backend
+Edit,Редактирай,module,Magento_Backend
+"Sorry, you need permissions to view this content.","За съжаление ви трябват права за достъп, за да разгледате това съдържание.",module,Magento_Backend
+"Next steps","Следващи стъпки",module,Magento_Backend
+"If you think this is an error, try signing out and signing in again.","Ако смятате, че това е грешка, опитайте да излезете и влезете в системата.",module,Magento_Backend
+"Contact a system administrator or store owner to gain permissions.","Свържете се със системен администратор или собсвтвеника на магазина, за да поискате права за достъп.",module,Magento_Backend
+"Return to ","Върни се към ",module,Magento_Backend
+"previous page","предишна страница",module,Magento_Backend
 "Welcome, please sign in","Добре дошли, моля влезте",module,Magento_Backend
 Username,"Потребителско име",module,Magento_Backend
 "user name","потребителско име",module,Magento_Backend
@@ -352,7 +407,7 @@ System,Системи,module,Magento_Backup
 "You created the system backup (excluding media).","You created the Системи backup (excluding media).",module,Magento_Backup
 "We can't save the Cron expression.","Не може да запише Cron израз.",module,Magento_Backup
 "You will lose any data created since the backup was made, including admin users, customers and orders.","You will lose any data created since the backup was made, including admin users, Клиенти and Поръчки.",module,Magento_Backup
-"Please enter the password to confirm rollback.","Моля, въведете паролата, за да потвърдите връщането.",module,Magento_Backup
+"Please enter the password to confirm rollback.","Моля, въведете паролата, за да потвърдите възстановяването.",module,Magento_Backup
 "User Password","Потребителска парола",module,Magento_Backup
 "Use FTP Connection","Използвайте FTP връзка",module,Magento_Backup
 Country,Държава,module,Magento_Braintree
@@ -367,6 +422,10 @@ Country,Държава,module,Magento_Braintree
 Authorize,Разреши,module,Magento_Braintree
 "Authorize and Capture","Оторизирай и запиши",module,Magento_Braintree
 "--Please Select--","--Моля, изберете--",module,Magento_Braintree
+"Credit Card","Кредитна карта",module,Magento_Braintree
+ending,завършващ,module,Magento_Braintree
+expires,изтича,module,Magento_Braintree
+"Transaction was failed.","Транзакцията е неуспешна.",module,Magento_Braintree
 "Credit Card Type","Тип на кредитната карта",module,Magento_Braintree
 "Credit Card Number","Номер на Кредитната Карта",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Моля въведете валиден номер на кредитна карта",module,Magento_Braintree
@@ -374,8 +433,8 @@ Authorize,Разреши,module,Magento_Braintree
 "Please, enter valid Expiration Date","Моля въведете валидна дата на изтичане",module,Magento_Braintree
 "Card Verification Number","Номер за проверка на картата",module,Magento_Braintree
 "Please, enter valid Card Verification Number","Моля въведете валиден номер за проверка на карта",module,Magento_Braintree
-ending,завършващ,module,Magento_Braintree
-expires,изтича,module,Magento_Braintree
+"Save for later use.","Запиши за по-нататъшна употреба.",module,Magento_Braintree
+"Are you sure you want to delete this PayPal account","Сигурни ли сте, че искате да изтриете този PayPal акаунт",module,Magento_Braintree
 "PayPal Account","PayPal сметка",module,Magento_Braintree
 "PayPal Logo","Логото на PayPal",module,Magento_Braintree
 Actions,Действия,module,Magento_Braintree
@@ -467,8 +526,18 @@ Always,Винаги,module,Magento_Captcha
 "Incorrect CAPTCHA","Неправилен CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Неправилен CAPTCHA.",module,Magento_Captcha
 "The account is locked. Please wait and try again or contact %1.","Профилът е заключен. Моля изчакайте и опитайте отново или се свържете с %1.",module,Magento_Captcha
+"Please enter the letters and numbers from the image","Моля въведете буквите и цифрите от картинката",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Внимание</strong>: Captcha различава малки иглавни букви.",module,Magento_Captcha
 "Reload captcha","Презареди изображението",module,Magento_Captcha
+"Please type the letters and numbers below","Моля въведете буквите и цифрите по-долу",module,Magento_Captcha
+"Missing key %1 in product data","Липсващ ключ %1 в данните на продукта",module,Magento_CatalogGraphQl
+"Concrete type for %1 not implemented","Конкретен тип за %1 не е изпълнен",module,Magento_CatalogGraphQl
+"currentPage value %1 specified is greater than the number of pages available.","currentPage стойност %1 зададен е по-голям от броя на страниците на разположение.",module,Magento_CatalogGraphQl
+"""id for category should be specified","""Ид за категория трябва да се специфицира",module,Magento_CatalogGraphQl
+"No child sku found for product link.","Няма дете sku намерено за връзката на продукта.",module,Magento_CatalogGraphQl
+"'search' or 'filter' input argument is required.","Исизква се ""търсене"" или ""филтриране"" на входният аргумент.",module,Magento_CatalogGraphQl
+"SimpleProduct type not defined in schema.","Тип на обикновенният продукт не дефиниран в схемата.",module,Magento_CatalogGraphQl
+"'category_id' only supports 'eq' condition type.","""category_id"" поддържа само ""eq"" тип на условие.",module,Magento_CatalogGraphQl
 "Entity type model '%1' is not found","Не е намерен обект тип модел ""%1""",module,Magento_CatalogImportExport
 "There are no product types available for export.","Няма варианти на този продукт подходящи за експорт.",module,Magento_CatalogImportExport
 "'Entity type model must be an instance of ' .","""Обект тип модел трябва да бъде инстанция на"".",module,Magento_CatalogImportExport
@@ -476,7 +545,6 @@ Always,Винаги,module,Magento_Captcha
 "File directory '%1' is not readable.","Директория за файла ""%1"" не се чете.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Директория за файла '%1' не е записваем.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value","Стойността за ""цена"" sub атрибут в ""Магазин"" атрибут съдържа неправилна стойност",module,Magento_CatalogImportExport
-"Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: 'dropdown', 'checkbox'","Стойността за ""тип"" под атрибут в ""custom_options"" атрибут съдържа неправилна стойност, приемливи стойности са: ""падащо"", ""шах""",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","Стойността за ""цена"" sub атрибут в ""custom_options"" атрибут съдържа неправилна стойност",module,Magento_CatalogImportExport
 "Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","Стойността за ""максимален брой знаци"" sub атрибут в ""custom_options"" атрибут съдържа неправилна стойност",module,Magento_CatalogImportExport
 "Value for 'sort order' sub attribute in 'custom_options' attribute contains incorrect value","Стойността за ""Сортиране"" под атрибут в ""custom_options"" атрибут съдържа неправилна стойност",module,Magento_CatalogImportExport
@@ -504,7 +572,6 @@ Always,Винаги,module,Magento_Captcha
 "The fewest you may purchase is %1.","Можете да закупите най-малко %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Моля коригирайте количеството на някои продукти.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Можете за закупите най-много %1.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","Желаното количество от продукт ""%1"" не е налично.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Не са толкова ""%1"" колкото поискахте, но ще поръчаме останалите %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Не разполагаме с ""%1"" в исканото количество, така ще поръчаме останалите %2.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","Можете да закупите %1 само в количества от %2 в даден момент.",module,Magento_CatalogInventory
@@ -581,6 +648,7 @@ List,Списък,module,Magento_CatalogSearch
 Relevance,Приложимост,module,Magento_CatalogSearch
 "Search results for: '%1'","Резултати от търсене за: '%1'",module,Magento_CatalogSearch
 "Minimum Search query length is %1","Минималаната дължина на заявката за търсене  %1",module,Magento_CatalogSearch
+"Search term is empty","Фразата за търсене е празна",module,Magento_CatalogSearch
 "%1 and greater","%1 и по-голямо",module,Magento_CatalogSearch
 "up to %1","до %1",module,Magento_CatalogSearch
 ". "" which is inconsistent with state of scope resolver""",". ""който е в противоречие със състоянието на обхвата""",module,Magento_CatalogSearch
@@ -610,11 +678,14 @@ SKU,"Кат. номер",module,Magento_CatalogWidget
 "Add to Compare","Добави за Cравнение",module,Magento_CatalogWidget
 Root,"Главна категория",module,Magento_Catalog
 Delete,Изтрий,module,Magento_Catalog
+"Are you sure you want to delete this category?","Сигурни ли сте, че искате да изтриете категорията?",module,Magento_Catalog
 Save,Запиши,module,Magento_Catalog
 "Use Config Settings","Използвай настройките на конфигурацията",module,Magento_Catalog
 "Use All Available Attributes","Използвай всички налични атрибути",module,Magento_Catalog
 Name,Име,module,Magento_Catalog
 SKU,"Кат. номер",module,Magento_Catalog
+Visibility,Видимост,module,Magento_Catalog
+Status,Статус,module,Magento_Catalog
 Price,Цена,module,Magento_Catalog
 Position,Позиция,module,Magento_Catalog
 "Add Subcategory","Добави подкатегория",module,Magento_Catalog
@@ -622,8 +693,6 @@ Position,Позиция,module,Magento_Catalog
 Day,Ден,module,Magento_Catalog
 Month,Месец,module,Magento_Catalog
 Year,Година,module,Magento_Catalog
-"<label class=""label""><span>from</span></label>","<label class=""label""><span>от</span></label>",module,Magento_Catalog
-"<label class=""label""><span>to</span></label>","<label class=""label""><span>до</span></label>",module,Magento_Catalog
 [GLOBAL],[ГЛОБАЛНО],module,Magento_Catalog
 [WEBSITE],[УЕБСАЙТ],module,Magento_Catalog
 "[STORE VIEW]",[ИЗГЛЕД],module,Magento_Catalog
@@ -730,8 +799,6 @@ Websites,Уебсайтове,module,Magento_Catalog
 "New Attribute","Нов атрибут",module,Magento_Catalog
 Type,Тип,module,Magento_Catalog
 "Attribute Set","Групи атрибути",module,Magento_Catalog
-Status,Статус,module,Magento_Catalog
-Visibility,Видимост,module,Magento_Catalog
 "Add New Option","Добави нова опция",module,Magento_Catalog
 "Import Options","Импортирай опции",module,Magento_Catalog
 "Use Default","Използвай по подразбиране",module,Magento_Catalog
@@ -772,7 +839,6 @@ Home,"Начална страница",module,Magento_Catalog
 AM,"Преди обяд",module,Magento_Catalog
 PM,Следобяд,module,Magento_Catalog
 "-- Please Select --","-- Моля изберете --",module,Magento_Catalog
-None,Никакъв,module,Magento_Catalog
 "New Products from %1","Нов продукт от %1",module,Magento_Catalog
 "New Products","Нови продукти",module,Magento_Catalog
 "%1 - Special Products","%1 - Специални продукти",module,Magento_Catalog
@@ -806,12 +872,10 @@ Catalog,Каталог,module,Magento_Catalog
 "Edit Product Attribute","Промени продуктовия атрибут",module,Magento_Catalog
 "An attribute set named '%1' already exists.","Зададеното име на атрибут ""%1"" вече съществува.",module,Magento_Catalog
 "Something went wrong while saving the attribute.","Нещо се обърка докато запазвахте атрибута.",module,Magento_Catalog
-"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Кодът на атрибут ""%1"" е невалиден. Моля, използвайте само букви (а-z), числа (0-9) или подчертаване(_) в това поле, първият символ трябва да бъде буква.",module,Magento_Catalog
 "We can't update the attribute.","Не може да актуализира атрибута.",module,Magento_Catalog
 "You saved the product attribute.","Запазихте продуктовия атрибут.",module,Magento_Catalog
 "An attribute with this code already exists.","Вече съществува атрибут с този код.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Вече съществува атрибут със същия код (%1).",module,Magento_Catalog
-"The value of Admin must be unique.","Стойността на администратор трябва да е уникален.",module,Magento_Catalog
 "You duplicated the product.","Дублирахте този продукт.",module,Magento_Catalog
 "This product doesn't exist.","Този продукт не съществува.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","Невалидно ID на продукт. Трябва да е числова стойност по-голяма от 0",module,Magento_Catalog
@@ -833,7 +897,6 @@ Products,Продукти,module,Magento_Catalog
 "This attribute set no longer exists.","Този атрибут вече не съществува",module,Magento_Catalog
 "You saved the attribute set.","Вие запазихте групата атрибути.",module,Magento_Catalog
 "Something went wrong while saving the attribute set.","Нещо се обърка докато запазвахте групата атрибути.",module,Magento_Catalog
-"You added product %1 to the comparison list.","Добавихте продукт %1 към листа за сравнение.",module,Magento_Catalog
 "You cleared the comparison list.","Изчистихте списъка за сравнение.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Нещо се обърка докато изчиствахте списъка за сравнение.",module,Magento_Catalog
 "You removed product %1 from the comparison list.","Премахнахте продукт %1 от списъка за сравнение.",module,Magento_Catalog
@@ -960,7 +1023,6 @@ Search,Търси,module,Magento_Catalog
 "Attribute '%1' is locked. %2","Атрибут ""%1"" е заключен. %2",module,Magento_Catalog
 "Do not change the scope. %1","Не променяйте обхвата. %1",module,Magento_Catalog
 "A product type is not defined for the indexer.","Продуктовия тип не е определен за индексатора.",module,Magento_Catalog
-"%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 не се разпростира \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","Продукт с кат. номер %1 не е свързан с продукт с кат. номер %2",module,Magento_Catalog
 "Multiple Select","Множествен избор",module,Magento_Catalog
 Dropdown,"Падащо меню",module,Magento_Catalog
@@ -979,6 +1041,11 @@ Select...,Избери...,module,Magento_Catalog
 "Special Price From","Специална цена от",module,Magento_Catalog
 To,До,module,Magento_Catalog
 Done,Готово,module,Magento_Catalog
+"Product Alerts","Известия за продукта",module,Magento_Catalog
+"Alert stock","Предупреждение наличност",module,Magento_Catalog
+"Alert Stock","Предупреждение наличност",module,Magento_Catalog
+"Alert price","Предупреждение цена",module,Magento_Catalog
+"Alert Price","Предупреждение цена",module,Magento_Catalog
 "Add Selected","Добави избрани",module,Magento_Catalog
 "Select Attribute","Избери атрибут",module,Magento_Catalog
 "Create New Attribute","Създай нов атрибут",module,Magento_Catalog
@@ -1020,11 +1087,13 @@ name,име,module,Magento_Catalog
 "Collapse All","Свий всички",module,Magento_Catalog
 "Expand All","Разгъни всички",module,Magento_Catalog
 "Please confirm site switching. All data that hasn't been saved will be lost.","Потвърдете превключване на обхвата. Всички данни, които не са записани ще бъдат загубени.",module,Magento_Catalog
+None,Никакъв,module,Magento_Catalog
 "Use Default Value","Използвай стойност по подразбиране",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","Управление на заглавия (Размер, Цвят, други)",module,Magento_Catalog
 "Manage Options (Values of Your Attribute)","Управление на опции (Стойности на вашите атрибути)",module,Magento_Catalog
 "Is Default","Е по подразбиране",module,Magento_Catalog
 "Sort Option","Опция за сортиране",module,Magento_Catalog
+"The value of Admin must be unique.","Стойността на администратор трябва да е уникален.",module,Magento_Catalog
 Groups,Групи,module,Magento_Catalog
 "Double click on a group to rename it.","Кликнете два пъти върху групата за да я преименувате.",module,Magento_Catalog
 "Unassigned Attributes","Неопределени атрибути",module,Magento_Catalog
@@ -1079,7 +1148,6 @@ Role,Роля,module,Magento_Catalog
 "Image Size","Размер на изображението",module,Magento_Catalog
 "Image Resolution","Резолюция на изображението",module,Magento_Catalog
 "Hide from Product Page","Скрий от страницата на продуктите",module,Magento_Catalog
-"Product Alerts","Известия за продукта",module,Magento_Catalog
 "Allow Multiple Boxes for Shipping","Позволи няколко кутии за доставка",module,Magento_Catalog
 "start typing to search attribute","започнете да пишете, за да намерите атрибут",module,Magento_Catalog
 "Basic Settings","Основни настройки",module,Magento_Catalog
@@ -1092,6 +1160,7 @@ Role,Роля,module,Magento_Catalog
 "Unselect Visible","Премахни избора на видими",module,Magento_Catalog
 "Special Price","Специална цена",module,Magento_Catalog
 "Regular Price","Нормална цена",module,Magento_Catalog
+"Buy %1 for: ","Купи %1 за: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Купете %1 за %2 всеки и <strong class=""benefit"">спестете<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Купете %1 за %2 всеки",module,Magento_Catalog
 "Shop By","Пазарувай по",module,Magento_Catalog
@@ -1202,6 +1271,8 @@ Checkout,Поръчай,module,Magento_Checkout
 "Display item quantities","Покажи артикулните наличности",module,Magento_Checkout
 "An error occurred on the server. Please try to place the order again.","Възникна грешка в сървъра. Моля опитайте се да поставите поръчката отново.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Не е намерен носител с такъв метод: %1, %2",module,Magento_Checkout
+" item"," артикул",module,Magento_Checkout
+" items"," артикули",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Калкулация на общата стойност не е приложима за празна количка.",module,Magento_Checkout
 "Invalid data","Невалидни данни",module,Magento_Checkout
 "The customer address is not valid.","Адреса на клиента не е валиден.",module,Magento_Checkout
@@ -1212,6 +1283,7 @@ Checkout,Поръчай,module,Magento_Checkout
 "Error message!","Грешка съобщение!",module,Magento_Checkout
 Error!,Грешка!,module,Magento_Checkout
 Message,Съобщение,module,Magento_Checkout
+"Print receipt","Отпечатване на разписка",module,Magento_Checkout
 "Apply Discount Code","Приложи код за отстъпка",module,Magento_Checkout
 "Enter discount code","Въведи код за отстъпка",module,Magento_Checkout
 "Apply Discount","Приложи отстъпка",module,Magento_Checkout
@@ -1257,7 +1329,6 @@ Enabled,Позволен,module,Magento_Cms
 "Manage Pages","Управление на страниците",module,Magento_Cms
 "Add New Page","Добави нова страница",module,Magento_Cms
 "Delete Page","Изтрий страница",module,Magento_Cms
-"Save Page","Запази страница",module,Magento_Cms
 "URL Key","URL ключ",module,Magento_Cms
 Layout,Оформление,module,Magento_Cms
 "Store View","Изглед на магазина",module,Magento_Cms
@@ -1296,6 +1367,7 @@ Pages,Страници,module,Magento_Cms
 "Page Title","Заглавие на страницата",module,Magento_Cms
 "To apply changes you should fill in hidden required ""%1"" field","За да приложите промените трябва да попълните скритото ""%1"" поле",module,Magento_Cms
 "You saved the page.","Запазихте страницата.",module,Magento_Cms
+"Directory %1 is not under storage root path.","Директория %1 is not under storage root path.",module,Magento_Cms
 "The directory %1 is not writable by server.","Директория %1 не може да бъде записана от сървъра.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","Make sure that static block Съдържание does not reference the block itself.",module,Magento_Cms
 "Enabled by Default","Позволи по подразбиране",module,Magento_Cms
@@ -1313,8 +1385,7 @@ Pages,Страници,module,Magento_Cms
 "We cannot delete directory %1.","Не можем да изтрием директория %1.",module,Magento_Cms
 "We can't upload the file right now.","Не може да качите файла точно сега.",module,Magento_Cms
 "We can't delete root directory %1 right now.","Не може да изтриете главната директория %1 точно сега.",module,Magento_Cms
-"Directory %1 is not under storage root path.","Директория %1 is not under storage root path.",module,Magento_Cms
-"Privacy and Cookie Policy","Общи условия за позлване и Бисквитки",module,Magento_Cms
+"Privacy and Cookie Policy","Общи условия за ползване и Бисквитки",module,Magento_Cms
 LocalizedException,"Локализирани изключения",module,Magento_Cms
 RuntimeException,"Изключения за изтекло време",module,Magento_Cms
 Exception,Изключение,module,Magento_Cms
@@ -1352,6 +1423,7 @@ System,Системи,module,Magento_Config
 "%1 (Default)","%1 (По подразбиране)",module,Magento_Config
 Website,Уебсайт,module,Magento_Config
 Yes,Да,module,Magento_Config
+"Visible section not found.","Видимата секция не е намерена.",module,Magento_Config
 "%1: Instance of %2 is expected, got %3 instead","%1: екземпляр на %2 се очаква, имам %3 вместо",module,Magento_Config
 "'There is no defined type ' .","""Не е определен тип"".",module,Magento_Config
 "'Object is not instance of ' .","""Обект не е инстанция на"".",module,Magento_Config
@@ -1363,6 +1435,7 @@ Yes,Да,module,Magento_Config
 "The ""test/test/test"" path does not exists","""Тест/тест/тест"" Пътят не съществува",module,Magento_Config
 "error message","съобщение за грешка",module,Magento_Config
 Stores,Магазини,module,Magento_Config
+"Product with assigned super attributes should not have specified ""%1"" value","Продуктът със съответните супер атрибути не трябва да има зададена стойност ""%1""",module,Magento_ConfigurableImportExport
 "Add configurable attributes to the current Attribute Set (""%1"")","Добави конфигурируеми атрибути към настоящата група атрибути (""%1"")",module,Magento_ConfigurableProduct
 "New attribute set name","Задай име на нов атрибут",module,Magento_ConfigurableProduct
 "Add configurable attributes to the existing Attribute Set","Добави конфигурируеми атрибути към съществуваща група атрибути",module,Magento_ConfigurableProduct
@@ -1384,7 +1457,10 @@ Weight,Тегло,module,Magento_ConfigurableProduct
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","Продукти с опции за конфигуриране позволяват на клиентите да избират опции (например: риза цвят). Трябва да се създаде продукт за всяка конфигурация (например: продукт за всеки цвят).",module,Magento_ConfigurableProduct
 "Create Product Configurations","Създаване на продуктови конфигурации",module,Magento_ConfigurableProduct
+"As low as","Толкова малко, колкото",module,Magento_ConfigurableProduct
 "Regular Price","Редовна цена",module,Magento_ConfigurableProduct
+"Buy %1 for %2 each and","Купувам %1 за %2 всеки",module,Magento_ConfigurableProduct
+save,запиши,module,Magento_ConfigurableProduct
 "Page not found.","Страницата не е намерена.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Благодарим Ви, че се свързахте с нас с вашите коментари и въпроси. Ще Ви отговорим много скоро.",module,Magento_Contact
 "An error occurred while processing your form. Please try again later.","Нещо се обърка докато подавахте поръчката си. Моля опитайте по-късно.",module,Magento_Contact
@@ -1396,7 +1472,9 @@ Name,Име,module,Magento_Contact
 "What’s on your mind?","Какво мислите?",module,Magento_Contact
 "Invalid domain name: %1","Невалидно домейн име: %1",module,Magento_Cookie
 "Invalid cookie lifetime: %1","Невалидна бисквитка живот: %1",module,Magento_Cookie
-"Invalid cookie path","Невалиден път за бисквитка",module,Magento_Cookie
+"Invalid cookie path","Невалиден път за бисквитка
+
+",module,Magento_Cookie
 "We use cookies to make your experience better.","Ние използваме бисквитки за да направят вашия опит по-добър.",module,Magento_Cookie
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Да се съобрази с новата директива за електронните комуникации, ние трябва да поиска за вашето съгласие да установите бисквитки.",module,Magento_Cookie
 "Allow Cookies","Разрешаване на бисквитки",module,Magento_Cookie
@@ -1404,6 +1482,7 @@ Name,Име,module,Magento_Contact
 Daily,Дневно,module,Magento_Cron
 Weekly,Седмично,module,Magento_Cron
 Monthly,Месечно,module,Magento_Cron
+"Invalid cron expression: %1","Невалиден cron израз: %1",module,Magento_Cron
 "Invalid cron expression, expecting 'match/modulus': %1","Невалиден cron израз, очаквайки ""мач/модул"": %1",module,Magento_Cron
 "Invalid cron expression, expecting numeric modulus: %1","Невалиден cron израз, очаквайки числови модул: %1",module,Magento_Cron
 "Invalid cron expression, expecting 'from-to' structure: %1","Невалиден cron израз, очаквайки ""от-до"" структура: %1",module,Magento_Cron
@@ -1459,6 +1538,8 @@ region,регион,module,Magento_Customer
 "Force Sign-In","Принудително влизане",module,Magento_Customer
 "New Customer","Нов клиент",module,Magento_Customer
 "Save and Continue Edit","Запази и продължи с промените",module,Magento_Customer
+Cancel,Откажи,module,Magento_Customer
+Delete,Изтрий,module,Magento_Customer
 Back,Назад,module,Magento_Customer
 "Please select","Моля изберете",module,Magento_Customer
 Reset,Нулирай,module,Magento_Customer
@@ -1470,7 +1551,6 @@ Price,Цена,module,Magento_Customer
 Total,Общо,module,Magento_Customer
 Action,Действие,module,Magento_Customer
 Configure,Конфигурирай,module,Magento_Customer
-Delete,Изтрий,module,Magento_Customer
 "Shopping Cart from %1","Пазарска количка от %1",module,Magento_Customer
 Newsletter,Бюлетин,module,Magento_Customer
 "Newsletter Information","Информация от бюлетина",module,Magento_Customer
@@ -1484,7 +1564,6 @@ Newsletter,Бюлетин,module,Magento_Customer
 Subject,Предмет,module,Magento_Customer
 Status,Статус,module,Magento_Customer
 Sent,Изпратен,module,Magento_Customer
-Cancel,Откажи,module,Magento_Customer
 "Not Sent","Не е изпратен",module,Magento_Customer
 Sending,"В процес на изпращане",module,Magento_Customer
 Paused,Паузиран,module,Magento_Customer
@@ -1566,7 +1645,6 @@ Download,Смъкни,module,Magento_Customer
 "We're unable to send the password reset email.","Не може да изпрати имейл за възстановяване на паролата.",module,Magento_Customer
 "Please enter your email.","Моля, впишете вашия имейл.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Ако има профил асоцииран с %1 ще получите линк за възстановяване на паролата.",module,Magento_Customer
-"My Account","Моят профил",module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Този профил не е потвърден. <a href=""%1"">Кликнете тук</a> за да изпратите отново имейл за потвърждение.",module,Magento_Customer
 "An unspecified error occurred. Please contact us for assistance.","Възникна неидентифицирана грешка. Моля свържете се с нас за да ви помогнем.",module,Magento_Customer
 "A login and a password are required.","Потребителското име и паролата са задължителни.",module,Magento_Customer
@@ -1611,10 +1689,12 @@ Customers,Клиенти,module,Magento_Customer
 "Invalid login or password.","Невалидно потребителско име или парола.",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 не се разпростира \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
 "The account is locked.","Този профил е заключен.",module,Magento_Customer
-"Invalid value of ""%value"" provided for the %fieldName field.","Невалидно стойност на ""%value"" зададена от %fieldName поле.",module,Magento_Customer
+"Reset password token expired.","Възстановете паролата защото е изтекла.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field. Possible values: %template1 or %template2.","Невалидна стойност на ""%value"" за полето %fieldName. Възможни стойности: %template1 или %template2.",module,Magento_Customer
 "Please enter a password with at most %1 characters.","Моля въведете парола от поне %1 символа.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Минимума от различни класове от символи в паролата е %1. Класове символи: Малки букви, Големи букви, Числа, Специални символи.",module,Magento_Customer
 "This customer already exists in this store.","Клиента вече съществува в този магазин.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field.","Невалидно стойност на ""%value"" зададена от %fieldName поле.",module,Magento_Customer
 """%1"" is a required value.","""%1"" е задължителна стойност.",module,Magento_Customer
 Global,Глобален,module,Magento_Customer
 "Per Website","На Уебсайт",module,Magento_Customer
@@ -1677,12 +1757,10 @@ Female,Женски,module,Magento_Customer
 "Thank you for registering with","Благодаря ви за регистриране с",module,Magento_Customer
 "enter your billing address for proper VAT calculation","Въведете вашия адрес за фактуриране за правилното изчисляване на ДДС",module,Magento_Customer
 "enter your shipping address for proper VAT calculation","Въведете адреса си за правилното изчисляване на ДДС",module,Magento_Customer
-"Please enter new password.","Моля, въведете нова парола.",module,Magento_Customer
-message,съобщение,module,Magento_Customer
 NoSuchEntityException,"Няма такова изключение за стойност",module,Magento_Customer
 Exception,Изключение,module,Magento_Customer
+message,съобщение,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Този профил не е потвърден. <a href=""%1"">Кликнете тук</a> за да изпратите отново имейл за потвърждение.",module,Magento_Customer
-InputException.,"Изключение за вписване,",module,Magento_Customer
 InputException,"Изключение за вписване,",module,Magento_Customer
 "Exception message","Съобщение на изключение",module,Magento_Customer
 "Validator Exception","Валидатор изключение",module,Magento_Customer
@@ -1723,36 +1801,40 @@ Change,Промени,module,Magento_Customer
 Newsletters,Бюлетини,module,Magento_Customer
 "You are subscribed to ""General Subscription"".","В момента сте абонирани за ""Общ абонамент"".",module,Magento_Customer
 or,или,module,Magento_Customer
+"My Account","Моят профил",module,Magento_Customer
 "Default Addresses","Адреси по подразбиране",module,Magento_Customer
 "Change Billing Address","Промяна на адрес за фактуриране",module,Magento_Customer
 "You have no default billing address in your address book.","Нямате адрес за фактуриране по подразбиране във вашата адресна книга.",module,Magento_Customer
 "Change Shipping Address","Промяна на адрес за доставка",module,Magento_Customer
 "You have no default shipping address in your address book.","Нямате адрес за доставка по подразбиране във вашата адресна книга.",module,Magento_Customer
-"Additional Address Entries","Допълнителни адресни записи",module,Magento_Customer
-"Delete Address","Изтриване на адрес",module,Magento_Customer
-"You have no other address entries in your address book.","Нямате други адресни записи във вашата адресна книга.",module,Magento_Customer
 "* Required Fields","* Задължителни полета",module,Magento_Customer
 Address,Адрес,module,Magento_Customer
-"Street Address",Адрес,module,Magento_Customer
 "Street Address %1","Адрес на улица %1",module,Magento_Customer
-"VAT Number","ДДС Номер",module,Magento_Customer
 City,Град,module,Magento_Customer
-State/Province,"Област / Провинция",module,Magento_Customer
 "Please select a region, state or province.","Моля изберете регион, щат или провинция.",module,Magento_Customer
-"Zip/Postal Code","Пощенски код",module,Magento_Customer
-Country,Дъръжава,module,Magento_Customer
 "It's a default billing address.","Това е по подразбиране адрес за фактуриране.",module,Magento_Customer
 "Use as my default billing address","Използвай като моя по подразбиране адрес за фактуриране",module,Magento_Customer
 "It's a default shipping address.","Това е по подразбиране, адрес за доставка.",module,Magento_Customer
 "Use as my default shipping address","Използвайте като моя по подразбиране адрес за доставка",module,Magento_Customer
+"Additional Address Entries","Допълнителни адресни записи",module,Magento_Customer
+"First Name",Име,module,Magento_Customer
+"Last Name",Фамилия,module,Magento_Customer
+"Street Address",Адрес,module,Magento_Customer
+Country,Дъръжава,module,Magento_Customer
+"Zip/Postal Code","Пощенски код",module,Magento_Customer
+Phone,Телефон,module,Magento_Customer
+"You have no other address entries in your address book.","Нямате други адресни записи във вашата адресна книга.",module,Magento_Customer
 "Confirm New Password","Потвърдете новата парола",module,Magento_Customer
 "Reset My Password","Генериране на нова парола",module,Magento_Customer
 "Registered Customers","Регистрирани потребители",module,Magento_Customer
 "If you have an account, sign in with your email address.","Ако имате профил, използвайте имейла си за да влезете.",module,Magento_Customer
+Password,Парола,module,Magento_Customer
 "Forgot Your Password?","Забравили сте паролата си?",module,Magento_Customer
 "Sign Up for Newsletter","Абонирай ме за е-бюлетин",module,Magento_Customer
+"Address Information",Адрес,module,Magento_Customer
 "Confirm Password","Потвърдете паролата",module,Magento_Customer
 "Create an Account",Регистрация,module,Magento_Customer
+"Set a New Password","Задавйте нова парола",module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","Вие излязохте от профила си и ще бъдете препратени към началната страница след 5 секунди.",module,Magento_Customer
 "New Customers","Нови клиенти",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Регистрацията Ви дава няколко предимства: по-бърза поръчка, запазване на повече от един адрес, проследяване на поръчки и др.",module,Magento_Customer
@@ -1767,6 +1849,7 @@ Fax,Факс,module,Magento_Customer
 "Wrong logger interface specified.","Грешен дървар интерфейс зададен.",module,Magento_Deploy
 "Wrong type specified: '%1'","Грешно зададен тип: ""%1""",module,Magento_Deploy
 "Wrong queue type specified.","Грешно зададено правило.",module,Magento_Deploy
+"Compilation from source: ","Компилация от източник: ",module,Magento_Deploy
 "Wrong deploy strategy type: %1","Неправилно разполагане стратегия тип: %1",module,Magento_Deploy
 "some message","някакво съобщение",module,Magento_Deploy
 Exception,Изключение,module,Magento_Deploy
@@ -1797,12 +1880,14 @@ Europack,"Евро опаковка",module,Magento_Dhl
 "Express 10:30","Експрес 10:30",module,Magento_Dhl
 "Domestic economy select","Избор на икономична до дома",module,Magento_Dhl
 "Economy select","Избор на икономична",module,Magento_Dhl
+"Domestic express 9:00","Местен Експрес 9:00",module,Magento_Dhl
 "Domestic express","До адрес експрес",module,Magento_Dhl
 Others,Други,module,Magento_Dhl
 "Globalmail business","Глобален мейл бизнес",module,Magento_Dhl
 "Same day","Същия ден",module,Magento_Dhl
 "Express 12:00","Експрес 12:00",module,Magento_Dhl
 "Express envelope","Експрес плик",module,Magento_Dhl
+"Domestic express 12:00","Местен Експрес 12:00",module,Magento_Dhl
 "Freight worldwide","Товари по целия свят",module,Magento_Dhl
 "Jumbo box","Джъмбо кутия",module,Magento_Dhl
 "DHL service is not available at %s date","DHL услугата не е налична на %s дата",module,Magento_Dhl
@@ -1816,7 +1901,6 @@ Others,Други,module,Magento_Dhl
 Documents,Документи,module,Magento_Dhl
 "Non Documents","Не документи",module,Magento_Dhl
 "Height, width and length should be equal or greater than %1","Височина, ширина и дължина трябва да бъде равен или по-голяма от %1",module,Magento_Dhl
-"Wrong Region","Грешен регион",module,Magento_Dhl
 "Unable to retrieve tracking","Не може да извлече проследяване",module,Magento_Dhl
 "Response is in the wrong format","Отговорът е в неправилен формат",module,Magento_Dhl
 "Error #%1 : %2","Грешка #%1: %2",module,Magento_Dhl
@@ -1831,7 +1915,6 @@ State/Province,"Област / Провинция",module,Magento_Directory
 "Please correct the target currency.","Моля коригирайте тагетираната валута.",module,Magento_Directory
 label,етикет,module,Magento_Directory
 "We can't retrieve a rate from %1 for %2.","Ние не може да извлече процент от %1 за %2.",module,Magento_Directory
-"We can't retrieve a rate from %1.","Не може да извлече процент от %1.",module,Magento_Directory
 "FATAL ERROR:","ФАТАЛНА ГРЕШКА:",module,Magento_Directory
 "Please specify the correct Import Service.","Моля, задайте правилната вносна услуга.",module,Magento_Directory
 WARNING:,ВНИМАНИЕ!,module,Magento_Directory
@@ -1896,6 +1979,7 @@ Shareable,Споделяем,module,Magento_Downloadable
 Samples,Проби,module,Magento_Downloadable
 "Use Default Value","Използвайте стойност по подразбиране",module,Magento_Downloadable
 sample,проба,module,Magento_Downloadable
+"Is this a downloadable Product?","Това е продукт за сваляне ли е?",module,Magento_Downloadable
 "Add links to your product files here.","Добавяне на връзки към вашия продуктов файл тук.",module,Magento_Downloadable
 "[STORE VIEW]","[Изглед Магазин]",module,Magento_Downloadable
 [GLOBAL],[Глобален],module,Magento_Downloadable
@@ -1958,12 +2042,6 @@ None,Никакъв,module,Magento_Eav
 Email,Имейл,module,Magento_Eav
 Letters,Букви,module,Magento_Eav
 "Letters (a-z, A-Z) or Numbers (0-9)","Букви (a-z, A-Z) или цифри (0-9)",module,Magento_Eav
-"Text Field","Текстово поле",module,Magento_Eav
-"Text Area","Пространство за текст",module,Magento_Eav
-Date,Дата,module,Magento_Eav
-Yes/No,Да/не,module,Magento_Eav
-"Multiple Select","Многоброен избор",module,Magento_Eav
-Dropdown,"Падащо меню",module,Magento_Eav
 "Input type ""%value%"" not found in the input types list.","Вход тип ""%value%"" не е намерен в списъка на видове вход.",module,Magento_Eav
 "Attribute object is undefined","Атрибут обекта не е дефиниран",module,Magento_Eav
 "Entity object is undefined","Стойността на обект е недефинирана",module,Magento_Eav
@@ -2000,7 +2078,7 @@ Dropdown,"Падащо меню",module,Magento_Eav
 """%1"" length must be equal or less than %2 characters.","""%1"" дължина трябва да е равна или по-малко от %2 символа.",module,Magento_Eav
 "Invalid entity_type specified: %1","Невалиден entity_type посочени: %1",module,Magento_Eav
 "Entity is not initialized","Стойността не е инициализирана",module,Magento_Eav
-"Unique constraint violation found","Намерено нарушение",module,Magento_Eav
+"Unique constraint violation found"," Намерено нарушение",module,Magento_Eav
 "The attribute code '%1' is reserved by system. Please try another attribute code","Кода на атрибута ""%1"" е запазено от системата. Опитайте друг код на атрибут",module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","Изходен модел ""%1"" не е намерена за атрибута ""%2""",module,Magento_Eav
 "Invalid date","невалидна дата",module,Magento_Eav
@@ -2023,10 +2101,12 @@ label,етикет,module,Magento_Eav
 "Form Fieldset with the same code","Форма Fieldset със същия код",module,Magento_Eav
 "Form Type with the same code","Тип формуляр със същия код",module,Magento_Eav
 "The value of attribute ""%1"" is invalid.","Стойността на атрибута ""%1"" е невалидна.",module,Magento_Eav
+"An attribute code must not be less than %1 and more than %2 characters.","Кода на атрибута не трябва да бъде по-малко от %1 и повече от %2 знака.",module,Magento_Eav
 "AttributeSet does not exist.","Атрибут група не съществува.",module,Magento_Eav
 hello,здравейте,module,Magento_Eav
 "Some internal exception message.","Съобщение за някои вътрешни изключения.",module,Magento_Eav
 "The value of attribute not valid","Стойността на атрибута не е валидна",module,Magento_Eav
+"Could not ping search engine: %1","Не може да пингне търсачката: %1",module,Magento_Elasticsearch
 "Add New Template","Добавяне на нов шаблон",module,Magento_Email
 "Transactional Emails","Транзакционни имейли",module,Magento_Email
 Back,Обратно,module,Magento_Email
@@ -2074,6 +2154,7 @@ Unknown,Непознат,module,Magento_Email
 "<pre> %1 </pre>",<pre>%1</pre>,module,Magento_Email
 "CSS inlining error:","CSS inlining грешка:",module,Magento_Email
 "Error filtering template: %s","Грешка във филтрирането на шаблон: %s",module,Magento_Email
+"We're sorry, an error has occurred while generating this content.","Съжаляваме, но възникна грешка при генерирането на това съдържание.",module,Magento_Email
 "Invalid sender data","Невалиден подател на данни",module,Magento_Email
 Title,Заглавиe,module,Magento_Email
 "Load default template","Зареждане на шаблон по подразбиране",module,Magento_Email
@@ -2234,6 +2315,8 @@ History,История,module,Magento_ImportExport
 "There is no sample file for this entity.","Няма пробен файл за този обект.",module,Magento_ImportExport
 Status,Статус,module,Magento_ImportExport
 "Maximum error count has been reached or system error is occurred!","Броят максимални грешки е достигнат или е възникнала системна грешка!",module,Magento_ImportExport
+"Only the first 100 errors are shown. ","Показани са само първите 100 грешки. ",module,Magento_ImportExport
+"Download full report","Изтегляне на пълен отчет",module,Magento_ImportExport
 "Import successfully done","Импортирането е успешно извършено",module,Magento_ImportExport
 "Sorry, but the data is invalid or the file is not uploaded.","Съжаляваме, но данните са невалидни или файлът не е качен.",module,Magento_ImportExport
 "The file was not uploaded.","Файлът не беше качен.",module,Magento_ImportExport
@@ -2245,7 +2328,6 @@ Status,Статус,module,Magento_ImportExport
 "Show more","Покажи още",module,Magento_ImportExport
 "Additional data","Допълнителни данни",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","Следните грешки са настъпили по време на процеса на импортиране:",module,Magento_ImportExport
-"Download full report","Изтегляне на пълен отчет",module,Magento_ImportExport
 "in row(s):","в редове:",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","Уверете се, че вашият файл не е повече от %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","Не може да осигури настройките на качване точно сега.",module,Magento_ImportExport
@@ -2295,7 +2377,6 @@ label,етикет,module,Magento_ImportExport
 Add/Update,Добавяне/актуализиране,module,Magento_ImportExport
 Replace,Замени,module,Magento_ImportExport
 Delete,Изтрий,module,Magento_ImportExport
-"Note: Product IDs will be regenerated.","Забележка: ИД на продукта ще бъде регенерирано.",module,Magento_ImportExport
 "Add/Update Complex Data","Добавяне/актуализиране на сложни данни",module,Magento_ImportExport
 "Delete Entities","Изтриване на обекти",module,Magento_ImportExport
 "Custom Action","Действие по избор",module,Magento_ImportExport
@@ -2318,11 +2399,17 @@ Never,Никога,module,Magento_Indexer
 "We couldn't change indexer(s)' mode because of an error.","Ние не може да промени indexer(s) ""режим поради грешка.",module,Magento_Indexer
 "%1 indexer(s) are in ""Update on Save"" mode.","%1 indexer(s) са в режим на ""Актуализация на запис"".",module,Magento_Indexer
 "One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Един или повече от <a href=""%1""> индексите</a> са невалидни. Уверете се, че <a href=""%2"" target=""_blank""> Magento Cron Job</a> се изпълнява редовно.",module,Magento_Indexer
-"State for the same indexer","Положение за същия индексатор",module,Magento_Indexer
+"State for the same indexer"," Положение за същия индексатор",module,Magento_Indexer
 "State for the same view","Положение за същия изглед",module,Magento_Indexer
 "Field '%1' not found","Поле ""%1"" не е намерен",module,Magento_Indexer
 "Some Exception Message","Съобщение за изключение",module,Magento_Indexer
 "Test Phrase","Тест фраза",module,Magento_Indexer
+"Your order number is: %1.","Вашата поръчка е с номер: %1.",module,Magento_InstantPurchase
+"Something went wrong while processing your order. Please try again later.","Нещо се обърка докато подавахте поръчката си. Моля опитайте по-късно.",module,Magento_InstantPurchase
+"Specified payment method is not available now.","Указаният метод на плащане не е наличен сега.",module,Magento_InstantPurchase
+"Specified shipping method is not available.","Указаният метод на доставка не е наличен.",module,Magento_InstantPurchase
+"Appropriate shipping method is not available.","Подходящ метод за доставка не е наличен.",module,Magento_InstantPurchase
+"Cheapest price","Най-ниска цена",module,Magento_InstantPurchase
 Integrations,Интеграции,module,Magento_Integration
 "Add New Integration","Добавяне на нова интеграция",module,Magento_Integration
 "Save & Activate","Запиши & активирай",module,Magento_Integration
@@ -2334,7 +2421,7 @@ Name,Име,module,Magento_Integration
 Email,Имейл,module,Magento_Integration
 "Callback URL","Обратно повикване URL",module,Magento_Integration
 "Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","Въведете URL адрес, където Oauth идентификационни данни могат да бъдат изпращани при използване Oauth за маркер обмен. Ние силно препоръчваме да използвате https://.",module,Magento_Integration
-"Identity link URL","Идентичност  на URL връзката",module,Magento_Integration
+"Identity link URL","Идентичност  на URL връзката ",module,Magento_Integration
 "URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL to redirect user to link their 3rd party потребителски профил with this Magento integration credentials.",module,Magento_Integration
 "Current User Identity Verification","Проверка за идентичност на текущ потребител",module,Magento_Integration
 "Your Password","Вашата парола",module,Magento_Integration
@@ -2399,6 +2486,7 @@ Reset,Нулиране,module,Magento_Integration
 "A token with consumer ID 0 does not exist","Токен с потребителски Идентификатор 0 не съществува",module,Magento_Integration
 "The integration you selected asks you to approve access to the following:","Интеграцията избрана от вас иска да одобри достъп до следното:",module,Magento_Integration
 "No permissions requested","Няма поискани резрешения",module,Magento_Integration
+"Are you sure?","Сигурни ли сте?",module,Magento_Integration
 "Are you sure you want to delete this integration? You can't undo this action.","Наистина ли искате да изтриете тази интеграция? Не можете да отмените това действие.",module,Magento_Integration
 "Please setup or sign in into your 3rd party account to complete setup of this integration.","Задайте настройки или Влезте в профила си в 3-та страна да завършите инсталирането на тази интеграция.",module,Magento_Integration
 "Available APIs","Налични APIs",module,Magento_Integration
@@ -2410,8 +2498,6 @@ No,Не,module,Magento_LayeredNavigation
 "Filterable (with results)","Филтриране (с резултати)",module,Magento_LayeredNavigation
 "Filterable (no results)","Филтриране (без резултати)",module,Magento_LayeredNavigation
 "Use in Layered Navigation","Използване в пластова навигация",module,Magento_LayeredNavigation
-"Can be used only with catalog input type Dropdown, Multiple Select and Price","Може да се използва само с каталог с вход тип падащо меню, няколко избора и цена",module,Magento_LayeredNavigation
-"Can be used only with catalog input type Dropdown, Multiple Select and Price.","Може да се използва само с каталог вход тип падащо меню, възможен многоброен избор и цена.",module,Magento_LayeredNavigation
 "Use in Search Results Layered Navigation","Използване в резултатите от търсенето пластове навигация",module,Magento_LayeredNavigation
 Position,Позиция,module,Magento_LayeredNavigation
 "Position in Layered Navigation","Позиция в пластова навигация",module,Magento_LayeredNavigation
@@ -2456,6 +2542,7 @@ Database,"База данни",module,Magento_MediaStorage
 "File with an extension ""%value%"" is protected and cannot be uploaded","Файл с разширение ""%value%"" е защитен и не може да бъде качен",module,Magento_MediaStorage
 "Unable to create directory: %1","Не може да създаде директория: %1",module,Magento_MediaStorage
 "Unable to save file: %1","Не може да запише файл: %1",module,Magento_MediaStorage
+"Some exception","Някои изключения",module,Magento_MessageQueue
 "To see product price, add this item to your cart. You can always remove it later.","За да видите цена на продукта, добавете този елемент към Вашата количка. Можете винаги да го премахнете по-късно.",module,Magento_Msrp
 "See price before order confirmation.","Вижте цена преди потвърждение на поръчката.",module,Magento_Msrp
 "On Gesture","На жест",module,Magento_Msrp
@@ -2482,7 +2569,8 @@ Total,Общо,module,Magento_Multishipping
 "Create Billing Address","Създай на адрес за фактуриране",module,Magento_Multishipping
 "Create Shipping Address","Създаване на адрес за доставка",module,Magento_Multishipping
 "Data saving problem","Проблем със записването на данните",module,Magento_Multishipping
-"We cannot open the overview page.","Не може да отвори общ преглед на страницата.",module,Magento_Multishipping
+"Maximum qty allowed for Shipping to multiple addresses is %1","Максимално количество, разрешено за доставка до няколко адреса",module,Magento_Multishipping
+"We cannot open the overview page.","Не може да отвори общ преглед на страницата. ",module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","Моля, съгласете се с общите правила и условия преди пускането на поръчката.",module,Magento_Multishipping
 "Order place error","Грешка в завършване на поръчката",module,Magento_Multishipping
 "Select Addresses",Адрес,module,Magento_Multishipping
@@ -2498,7 +2586,7 @@ Total,Общо,module,Magento_Multishipping
 "Please select a shipping address for applicable items.","Моля изберете адрес за доставка за приложимите елементи.",module,Magento_Multishipping
 Product,Продукт,module,Magento_Multishipping
 Qty,Кол-во,module,Magento_Multishipping
-"Send To","Изпрати до:",module,Magento_Multishipping
+"Send To","Изпрати до: ",module,Magento_Multishipping
 "A shipping selection is not applicable.","Селекция на доставката не е приложима.",module,Magento_Multishipping
 Actions,Действия,module,Magento_Multishipping
 "Remove Item",Премахни,module,Magento_Multishipping
@@ -2517,8 +2605,7 @@ Change,Промени,module,Magento_Multishipping
 "Shipping is not applicable.","Доставка не е приложима",module,Magento_Multishipping
 "Product Name","Име на продукт",module,Magento_Multishipping
 "Check Out with Multiple Addresses","Завърши поръчката с доставка до няколко адреса",module,Magento_Multishipping
-"Address %1 <span>of %2</span>","Адрес %1 <span>of %2</span>",module,Magento_Multishipping
-"Shipping To","Доставка до",module,Magento_Multishipping
+"Shipping To","Доставка до ",module,Magento_Multishipping
 "Shipping Method","Метод на доставка",module,Magento_Multishipping
 "Incl. Tax","Вкл. ДДС",module,Magento_Multishipping
 "Excl. Tax","Без ДДС:",module,Magento_Multishipping
@@ -2530,11 +2617,12 @@ Subtotal,"Междинна сума",module,Magento_Multishipping
 Items,Артикули,module,Magento_Multishipping
 "Grand Total:",Oбщо,module,Magento_Multishipping
 "Submitting order information...","Подаване информация за поръчката...",module,Magento_Multishipping
+"Address %1 <span>of %2</span>","Адрес %1 <span>of %2</span>",module,Magento_Multishipping
 "Sorry, no quotes are available for this order right now.","За съжаление в момента няма налични оферти за тази поръчка.",module,Magento_Multishipping
 "Continue to Billing Information","Продължи към информацията за фактуриране",module,Magento_Multishipping
 "Back to Select Addresses","Обратно, за да изберете адреси",module,Magento_Multishipping
-"Thank you for your purchase!","Благодарим Ви за вашата покупка!",module,Magento_Multishipping
 "Continue Shopping","Продължи с пазаруването",module,Magento_Multishipping
+"Message has been rejected: %1","Съобщението беше отхвърлено: %1",module,Magento_MysqlMq
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Няма конфигуриран New Relic Application ID, отчитането на събитията в Cron не може да продължи",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Интеграцията на нова следа изисква newrelic-php5 агент, който не е инсталиран. Повече информация за инсталирането на агента е достъпна <a target=""_blank"" href=""%1""> тук</a>.",module,Magento_NewRelicReporting
@@ -2568,7 +2656,8 @@ Preview,Преглед,module,Magento_Newsletter
 "Delete Template","Изтриване на шаблон",module,Magento_Newsletter
 "Save As","Запази като",module,Magento_Newsletter
 "Save Template","Записване на шаблон",module,Magento_Newsletter
-"Edit Newsletter Template","Редактирай шаблон на бюлетин",module,Magento_Newsletter
+"Edit Newsletter Template","Редактирай шаблон на бюлетин
+",module,Magento_Newsletter
 "New Newsletter Template","Нов Шаблон на бюлетин",module,Magento_Newsletter
 "Template Information","Информация за шаблон",module,Magento_Newsletter
 "Template Name","Име на шаблона",module,Magento_Newsletter
@@ -2673,12 +2762,13 @@ Shipping,Доставка,module,Magento_Payment
 "Please enter a valid credit card verification number.","Моля, въведете валиден номер за проверка на кредитна карта.",module,Magento_Payment
 "Please enter a valid credit card expiration date.","Моля, въведете валидна дата на изтичване на кредитната карта.",module,Magento_Payment
 "%1 class doesn't implement \Magento\Payment\Model\MethodInterface","%1 клас не реализира \Magento\Payment\Model\MethodInterface",module,Magento_Payment
-Yes,Да,module,Magento_Payment
+Yes," Да",module,Magento_Payment
 No,Не,module,Magento_Payment
 "Failure #1","Грешка #1",module,Magento_Payment
 "Failure #2","Грешка #2",module,Magento_Payment
 "Expiration Date","Дата на изтичане",module,Magento_Payment
 "Card Verification Number","Номер за верификация на картата",module,Magento_Payment
+" is not available. You still can process offline actions."," не е налично. Можете да продължите с офлайн действията.",module,Magento_Payment
 "Please Select","Моля изберете",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","Ще помолим за Вашите данни за плащане, преди да направите поръчка.",module,Magento_Payment
 "--Please Select--","--Моля, изберете--",module,Magento_Payment
@@ -2736,7 +2826,7 @@ Sales,Продажби,module,Magento_Paypal
 "We couldn't finish the billing agreement wizard.","Не успяхме да завършим съветника за споразумението за фактуриране.",module,Magento_Paypal
 "We can't start the billing agreement wizard.","Не може да стартира съветника за споразумение за фактуриране.",module,Magento_Paypal
 "We can't initialize Express Checkout.","Не може да инициализира Express Checkout.",module,Magento_Paypal
-"We can't place the order.","Не може да направите поръчка.",module,Magento_Paypal
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal не може да обработи поръчки с нулев остатък. За да завършите вашата покупка, моля минете през стандартен шах процес.",module,Magento_Paypal
 "We can't process Express Checkout approval.","Не може да обработи Express Checkout одобрение.",module,Magento_Paypal
 "We can't initialize Express Checkout review.","Не може да инициализира Express Checkout преглед.",module,Magento_Paypal
 "We can't update shipping method.","Не може да актуализира метода на доставка.",module,Magento_Paypal
@@ -2745,8 +2835,8 @@ Sales,Продажби,module,Magento_Paypal
 "PayPal response hasn't required fields.","PayPal отговор няма задължителни полета.",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Съжалявам - но ние не бяхме в състояние да обработим плащането ви. Опитайте друг метод на плащане или се свържете с нас, така че ние може да ви помогне.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Съжалявам - но ние не сме в състояние да завършим вашата сделка. Моля свържете се с нас, за да ви помогнем.",module,Magento_Paypal
+"We can't place the order.","Не може да направите поръчка.",module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","Ще разрешим сумата на %1, веднага щом плащането бъде одобрено от терминала.",module,Magento_Paypal
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal не може да обработи поръчки с нулев остатък. За да завършите вашата покупка, моля минете през стандартен шах процес.",module,Magento_Paypal
 "This customer didn't include a confirmed address.","Този клиент не включва потвърден адрес.",module,Magento_Paypal
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.","Търговецът притежава сметка извън Сащ и не разполага с механизъм за оттегляне.",module,Magento_Paypal
 "The payment currency doesn't match any of the merchant's balances currency.","Валутата на плащането не съвпада с никой от търговските салда валута.",module,Magento_Paypal
@@ -2759,6 +2849,7 @@ Sales,Продажби,module,Magento_Paypal
 "Buyer's Tax ID Type","ИД тип данък на купувача",module,Magento_Paypal
 "Matched Address only (no ZIP)","Само съвпадащи адреси (без пощенски код)",module,Magento_Paypal
 "N/A. Not allowed for MOTO (Internet/Phone) transactions","N/A. Not allowed for MOTO (Internet/Phone) Транзакции",module,Magento_Paypal
+"Credit Card","Кредитна карта",module,Magento_Paypal
 "You notified customer about invoice #%1.","You notified customer about Фактура #%1.",module,Magento_Paypal
 "We can't issue a refund transaction because there is no capture transaction.","Не можем да издаваме възстановяване на транзакция, защото няма направена сделка.",module,Magento_Paypal
 "We cannot create a target file for reading reports.","We cannot create a target file for reading Доклади.",module,Magento_Paypal
@@ -2769,6 +2860,7 @@ Sales,Продажби,module,Magento_Paypal
 "Balance Manager Account Bonus","Balance Manager потребителски профил Bonus",module,Magento_Paypal
 "Fee: Web Site Payments Pro Account Monthly","Fee: Web Site Payments Pro потребителски профил Monthly",module,Magento_Paypal
 "General (Funds Transfer from PayPal Account to Another)","General (Funds Transfer from PayPal потребителски профил to Another)",module,Magento_Paypal
+"General Funding of PayPal Account ","Общо финансиране на PayPal сметка ",module,Magento_Paypal
 "General Withdrawal from PayPal Account","General Withdrawal from PayPal потребителски профил",module,Magento_Paypal
 "General: Use of PayPal account for purchasing as well as receiving payments","General: Use of PayPal потребителски профил for purchasing as well as receiving payments",module,Magento_Paypal
 "General: Withdrawal from PayPal Account","General: Withdrawal from PayPal потребителски профил",module,Magento_Paypal
@@ -2785,15 +2877,14 @@ Sales,Продажби,module,Magento_Paypal
 Item,Продукт,module,Magento_Paypal
 Price,Цена,module,Magento_Paypal
 "You will be required to enter your payment details after you place an order.","Необходимо е да въведете информация за извършване на плащането след като поръчката бъде завършена.",module,Magento_Paypal
-"Not you?","Не си ти?",module,Magento_Persistent
 "Your shopping cart has been updated with new prices.","Вашата количка е актуализирана с нови цени.",module,Magento_Persistent
-"Welcome, %1!","Добре дошли, %s!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","Не може да зареди конфигурацията от файл %1.",module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","Метод на ""%1"" не е дефиниран в ""%2""",module,Magento_Persistent
 "To check out, please sign in using your email address.","За да се отпишете, моля, влезте с Вашия имейл адрес.",module,Magento_Persistent
+"Not you?","Не си ти?",module,Magento_Persistent
 "Remember Me","Запомни ме",module,Magento_Persistent
 "What's this?","Какво е това?",module,Magento_Persistent
-"Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Отбележете ""Запомни ме"" за достъп до вашата пазарска кошница на този компютър, дори ако не сте влезли.",module,Magento_Persistent
+"Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in."," Отбележете ""Запомни ме"" за достъп до вашата пазарска кошница на този компютър, дори ако не сте влезли.",module,Magento_Persistent
 "You saved the alert subscription.","Запазили сте абонамент за известяване.",module,Magento_ProductAlert
 "There are not enough parameters.","Няма достатъчно параметри.",module,Magento_ProductAlert
 "Alert subscription has been saved.","Абонамент за известяване е записан.",module,Magento_ProductAlert
@@ -2819,6 +2910,7 @@ Role,Роля,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube и Vimeo поддържани.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo поддържа. < br / > да добавите видео YouTube, моля <a href=""%1""> Въведете YouTube API ключ</a> пръв.",module,Magento_ProductVideo
 "Protocol isn't allowed","Протокол не е позволен",module,Magento_ProductVideo
+"Disallowed file type.","Неразрешен файлов тип.",module,Magento_ProductVideo
 "Add Video","Добавяне на видео",module,Magento_ProductVideo
 "Browse to find or drag image here","Прегледайте да намерите или плъзнете изображението тук",module,Magento_ProductVideo
 "Delete video","Изтриване на видео",module,Magento_ProductVideo
@@ -2847,20 +2939,19 @@ Subtotal,"Междинна сума",module,Magento_Quote
 "An item option with code %1 already exists.","Елемент с опция с код %1 вече съществува.",module,Magento_Quote
 "Item qty declaration error","грешка в декларация за количество на продукт",module,Magento_Quote
 "Some of the products below do not have all the required options.","Някои от продуктите по-долу нямат всички необходими опции.",module,Magento_Quote
-"Something went wrong during the item options declaration.","Нещо се обърка по време на декларирането на опции за продукта.",module,Magento_Quote
-"We found an item options declaration error.","Намерихме грешка в декларацията за опции на продукти.",module,Magento_Quote
-"Some of the selected options are not currently available.","Някои от избраните опции в момента не са налични.",module,Magento_Quote
+"Something went wrong during the item options declaration.","Нещо се обърка по време на декларирането на опции за продукта. ",module,Magento_Quote
+"We found an item options declaration error.","Намерихме грешка в декларацията за опции на продукти. ",module,Magento_Quote
+"Some of the selected options are not currently available.","Някои от избраните опции в момента не са налични.
+",module,Magento_Quote
 "Selected option(s) or their combination is not currently available.","Избраните опции или комбинацията от тях в момента не са достъпни.",module,Magento_Quote
 "Some item options or their combination are not currently available.","Някои опции за продукта или тяхната комбинация не са налични в момента.",module,Magento_Quote
 "The qty value is required to update quote item.","Стойността на количество е необходима за  да актуализирате офертата за елемент.",module,Magento_Quote
 "Minimum order amount is %1","Минималната сума за поръчка е %1",module,Magento_Quote
 "Invalid customer id %1","Невалиден клиент  ИД %1",module,Magento_Quote
-"Invalid address id %1","Невалиден адрес ИД %1",module,Magento_Quote
 "Invalid customer address id %1","Невалиден клиент адрес ИД %1",module,Magento_Quote
+"Invalid address id %1","Невалиден адрес ИД %1",module,Magento_Quote
 "Only 1 shipping assignment can be set","Може да се настрои само 1 доставка",module,Magento_Quote
 "This item price or quantity is not valid for checkout.","Цената или количеството на този артикул не са валидни за приключване на поръчката.",module,Magento_Quote
-"Please check the shipping address information. %1","Моля, проверете информацията за адреса на доставка. %1",module,Magento_Quote
-"Please check the billing address information. %1","Моля, проверете адреса за фактуриране. %1",module,Magento_Quote
 "Store Credit",Кредит,module,Magento_Quote
 Discount,Отстъпка,module,Magento_Quote
 Tax,Такса,module,Magento_Quote
@@ -2875,7 +2966,7 @@ Year,Година,module,Magento_Reports
 Period,Период,module,Magento_Reports
 From,От:,module,Magento_Reports
 To,До,module,Magento_Reports
-Yes,Да,module,Magento_Reports
+Yes," Да",module,Magento_Reports
 No,Не,module,Magento_Reports
 "Empty Rows","Празни редове",module,Magento_Reports
 "Invalid date specified","Невалидни данни",module,Magento_Reports
@@ -2950,7 +3041,7 @@ Rate,Оцени,module,Magento_Reports
 "Abandoned carts","Изоставени колички",module,Magento_Reports
 Email,Имейл,module,Magento_Reports
 Products,Продукти,module,Magento_Reports
-Quantity,Количество:,module,Magento_Reports
+Quantity,"Количество: ",module,Magento_Reports
 "Applied Coupon","Приложен купон",module,Magento_Reports
 Updated,Актуализиран,module,Magento_Reports
 "IP Address","IP адрес",module,Magento_Reports
@@ -2968,7 +3059,6 @@ Name,Име,module,Magento_Reports
 "Times Deleted","Пъти изтрити",module,Magento_Reports
 "Index type is not valid","Индекс тип не е валиден",module,Magento_Reports
 Reports,Доклади,module,Magento_Reports
-"Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","Последна актуализация: %1. За да обновите последния ден за <a href=""%2""> Статистика</a>, щракнете <a href=""%3""> тук</a>.",module,Magento_Reports
 "New Accounts Report","Доклад за нови профили",module,Magento_Reports
 "Customers by Number of Orders","Клиенти по брой поръчки",module,Magento_Reports
 "Order Count Report","Доклад брой поръчки",module,Magento_Reports
@@ -3117,7 +3207,7 @@ Reviews,Отзиви,module,Magento_Review
 Ratings,Рейтинги,module,Magento_Review
 "You saved the rating.","Записахте рейтинга.",module,Magento_Review
 "My Product Reviews","Моите отзиви за продукти",module,Magento_Review
-"You submitted your review for moderation.","Подадохте вашия отзив за моделиране.",module,Magento_Review
+"You submitted your review for moderation.","Вашият отзив беше изпратен, след като бъде прегледан ще бъде публикуван.",module,Magento_Review
 "We can't post your review right now.","Не може да публикувате вашия пост точно сега.",module,Magento_Review
 Approved,Одобрен,module,Magento_Review
 Pending,Чакащ,module,Magento_Review
@@ -3150,13 +3240,13 @@ Back,Назад,module,Magento_Review
 Summary,Резюме,module,Magento_Review
 "Submit Review","Редактиране на отзив",module,Magento_Review
 "Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Само регистрирани потребители могат да оставят мнения. Моля <a href=""%1"">влезте в профила си</a> или си направете <a href=""%2"">регистрация</a>",module,Magento_Review
-"Add Your Review","Добавете вашия отзив",module,Magento_Review
+"Add Your Review","Напишете отзив",module,Magento_Review
 "%1 Review(s)","%1 Отзив(и)",module,Magento_Review
-"Review by","Оценен от",module,Magento_Review
+"Review by","Оценен от ",module,Magento_Review
 "Posted on","Публикувано на",module,Magento_Review
 "Back to Main Product Info","Обратно към информацията за основния продукт",module,Magento_Review
 "Average Customer Rating","Средностойностен клиентски рейтинг",module,Magento_Review
-"Product Rating:","Продукт рейтинг:",module,Magento_Review
+"Product Rating:","Продукт рейтинг: ",module,Magento_Review
 "Product Review (submitted on %1):","Отзиви за продукта (представено на %1):",module,Magento_Review
 "Back to Product Reviews","Обратно към отзиви за продукта",module,Magento_Review
 "Page not found.","Страницата не е намерена.",module,Magento_Rss
@@ -3277,6 +3367,7 @@ Auto,Автоматично,module,Magento_SalesRule
 Subtotal,Сума,module,Magento_SalesRule
 "Total Items Quantity","Общ брой записи",module,Magento_SalesRule
 "Total Weight","Общо тегло",module,Magento_SalesRule
+"Payment Method","Метод на плащане",module,Magento_SalesRule
 "Shipping Method","Метод на доставка",module,Magento_SalesRule
 "Shipping Postcode","Пощенски код на доставката",module,Magento_SalesRule
 "Shipping Region","Регион на доставката",module,Magento_SalesRule
@@ -3363,7 +3454,7 @@ Configure,Конфигуриране,module,Magento_Sales
 "Add Selected Product(s) to Order","Добави избраните продукти към поръчката",module,Magento_Sales
 ID,ИД,module,Magento_Sales
 Product,Продукт,module,Magento_Sales
-SKU,"Каталожен номер",module,Magento_Sales
+SKU,"Каталожен номер ",module,Magento_Sales
 Price,Цена,module,Magento_Sales
 Select,Избери,module,Magento_Sales
 Quantity,Kоличество,module,Magento_Sales
@@ -3458,6 +3549,7 @@ Reorder,"Поръчай отново",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Този ред съдържа елементи, (%1) и следователно не могат да бъдат редактирани чрез администраторския интерфейс. Ако желаете да продължите редактирането, (%2) елементи ще бъдат премахнати, поръчката ще бъде анулирана и ще бъде създадена нова поръчка.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Сигурни ли сте? Тази поръчка ще бъде отменена и вместо това ще бъде създадена нова.",module,Magento_Sales
 "Save Gift Message","Запишете съобщение подарък",module,Magento_Sales
+" [deleted]"," [изтрит]",module,Magento_Sales
 "Order Credit Memos","Кредитни известия за поръчка",module,Magento_Sales
 "Credit memo #%1 created","Кредитно известие #%1 създаден",module,Magento_Sales
 "Credit memo #%1 comment added","Кредитно известие #%1 коментар добавен",module,Magento_Sales
@@ -3478,7 +3570,7 @@ Any,Всеки,module,Magento_Sales
 Specified,Зададен,module,Magento_Sales
 "Applies to Any of the Specified Order Statuses except canceled orders","Се отнася за някой от зададен ред състоянията освен анулирани поръчки",module,Magento_Sales
 "Cart Price Rule","Правила за цени в количката",module,Magento_Sales
-Yes,Да,module,Magento_Sales
+Yes," Да",module,Magento_Sales
 No,Не,module,Magento_Sales
 "Show Actual Values","Показване на действителните стойности",module,Magento_Sales
 "New Order RSS","Нова поръчка RSS",module,Magento_Sales
@@ -3515,10 +3607,10 @@ Sales,Продажби,module,Magento_Sales
 "The invoice has been captured.","The Фактура has been captured.",module,Magento_Sales
 "The order does not allow an invoice to be created.","The order does not allow an Фактура to be created.",module,Magento_Sales
 "New Invoice","New Фактура",module,Magento_Sales
-"You created the invoice and shipment.","You created the Фактура and shipment.",module,Magento_Sales
-"The invoice has been created.","The Фактура has been created.",module,Magento_Sales
 "We can't send the invoice email right now.","Не може да изпрати на фактура имейл точно сега.",module,Magento_Sales
 "We can't send the shipment right now.","Не може да изпрати пратката в момента.",module,Magento_Sales
+"You created the invoice and shipment.","You created the Фактура and shipment.",module,Magento_Sales
+"The invoice has been created.","The Фактура has been created.",module,Magento_Sales
 "The invoice has been voided.","The Фактура has been voided.",module,Magento_Sales
 "Invoice voiding error","Фактура voiding error",module,Magento_Sales
 "There are no printable documents related to selected orders.","There are no printable documents related to selected Поръчки.",module,Magento_Sales
@@ -3534,6 +3626,7 @@ Sales,Продажби,module,Magento_Sales
 "Could not save an invoice, see error log for details","Не може да запази фактура, вижте грешка дънер за подробност",module,Magento_Sales
 "Please enter the phone number.","Моля, въведете телефон.",module,Magento_Sales
 "Please enter the zip/postal code.","Моля въведете пощенски код.",module,Magento_Sales
+"Could not delete the comment.","Коментарът не може да бъде изтрит.",module,Magento_Sales
 "The creditmemo contains product item that is not part of the original order.","Кредитно изв. съдържа елемент на продукт, който не е част от първоначалния ред.",module,Magento_Sales
 "The quantity to refund must not be greater than the unrefunded quantity.","Количеството на възстановяване не трябва да надхвърля количеството, невъзстановени.",module,Magento_Sales
 "Could not delete the credit memo item.","Кредитното известие не може да бъде изтрито.",module,Magento_Sales
@@ -3555,7 +3648,9 @@ Invoiced,Фактуриран,module,Magento_Sales
 "Payment transactions disallow storing objects.","Payment Транзакции disallow storing objects.",module,Magento_Sales
 "Set order for existing transactions not allowed","Set order for existing Транзакции not allowed",module,Magento_Sales
 "You can't do this without a transaction object.","Не може да направите това без обект на транзакция.",module,Magento_Sales
+"Order Date: ","Дата на поръчката: ",module,Magento_Sales
 "We don't recognize the draw line data. Please define the ""lines"" array.","Не признава наравно редове с данни. Дефинирайте \"lines\" масив.",module,Magento_Sales
+"Invoice # ","Фактура # ",module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","The PDF total model %1 must be or extend \Magento\Продажби\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "Order Id is required for shipment document","ИД на поръчката е необходим за документ за експедиране",module,Magento_Sales
 "You can't create a shipment without products.","Не можете да създадете експедиционна бележка без продукти.",module,Magento_Sales
@@ -3645,7 +3740,7 @@ Search,Търсене,module,Magento_Search
 "Search Information","Информация за търсене",module,Magento_Search
 "General Information","Обща информация",module,Magento_Search
 No,Не,module,Magento_Search
-Yes,Да,module,Magento_Search
+Yes," Да",module,Magento_Search
 "Search Query","Заявка за търсене",module,Magento_Search
 Store,Магазин,module,Magento_Search
 "Number of results","Брой на резултатите",module,Magento_Search
@@ -3683,6 +3778,7 @@ Reports,Доклади,module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","Вашата заявка за търсене не може да бъде по-дълъг от %1, така че ние съкратен вашата заявка.",module,Magento_Search
 "Merge conflict with existing synonym group(s): %1","Обединяване на конфликт със съществуващите синоним група(и): %1",module,Magento_Search
 "All Websites","Всички уеб сайтове",module,Magento_Search
+"    All Store Views","Изгледи на всички магазини",module,Magento_Search
 "All Store Views","Изгледи на всички магазини",module,Magento_Search
 Delete,Изтриване,module,Magento_Search
 "Are you sure you want to delete synonym group with id: %1?","Наистина ли искате да изтриете синоним група с ИД: %1?",module,Magento_Search
@@ -3725,11 +3821,6 @@ None,Николко,module,Magento_Security
 "Please define the correct sender information.","Дефинирайте правилния подател информация.",module,Magento_SendFriend
 "IP Address","IP адрес",module,Magento_SendFriend
 "Cookie (unsafe)","Бисквитка (опасен)",module,Magento_SendFriend
-"No Product Exception.","Не прави изключение от продукта.",module,Magento_SendFriend
-"No Category Exception.","Категория изключение.",module,Magento_SendFriend
-"Some error","Някаква грешка",module,Magento_SendFriend
-"Localized Exception.","Локализирани изключение.",module,Magento_SendFriend
-Exception.,Изключения.,module,Magento_SendFriend
 "Remove Recipent","Премахване на получател",module,Magento_SendFriend
 Remove,Премахване,module,Magento_SendFriend
 Name,Име,module,Magento_SendFriend
@@ -3749,7 +3840,7 @@ Back,Обратно,module,Magento_SendFriend
 "The value that you entered is not valid.","Стойността, която въведохте не е валидна.",module,Magento_Shipping
 "Add Tracking Number","Добавяне на номер за проследяване",module,Magento_Shipping
 "Custom Value","Стойност по избор",module,Magento_Shipping
-Add,Добави,module,Magento_Shipping
+Add,"Добави ",module,Magento_Shipping
 "Send Tracking Information","Изпращане на информация за проследяване",module,Magento_Shipping
 "Are you sure you want to send a Shipment email to customer?","Наистина ли искате да изпратите имейл с доставка на клиент?",module,Magento_Shipping
 Print,Печат,module,Magento_Shipping
@@ -3786,6 +3877,7 @@ Shipments,Доставки,module,Magento_Shipping
 "The order no longer exists.","Поръчката вече не съществува.",module,Magento_Shipping
 "Cannot do shipment for the order separately from invoice.","Не може да направи доставка за поръчката отделно от фактурата.",module,Magento_Shipping
 "Cannot do shipment for the order.","Не може да направи доставка за поръчката.",module,Magento_Shipping
+"Tracking information must contain title, carrier code, and tracking number","Информацията за проследяване трябва да съдържа наименование, код на превозвача и номер за проследяване",module,Magento_Shipping
 "There are no shipping labels related to selected shipments.","Няма етикети за доставка свързани с избраните поръчки.",module,Magento_Shipping
 "Page not found.","Потребителят не бе намерен.",module,Magento_Shipping
 "Tracking Information","Информация за проследяване",module,Magento_Shipping
@@ -3881,7 +3973,10 @@ SKU,"Кат. номер",module,Magento_Shipping
 "Tracking Number:","Номер за проследяване:",module,Magento_Shipping
 Carrier:,Куриер,module,Magento_Shipping
 Error:,Грешка:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","В момента няма информация за проследяването. Моля ",module,Magento_Shipping
 "contact us","свържете се с нас",module,Magento_Shipping
+" for more information or "," за повече информация или ",module,Magento_Shipping
+"email us at ","Изпратете ни имейл на ",module,Magento_Shipping
 Info:,Информация:,module,Magento_Shipping
 Track:,Проследи:,module,Magento_Shipping
 "Delivered on:","Доставено на:",module,Magento_Shipping
@@ -3893,6 +3988,16 @@ Location,Местоположение,module,Magento_Shipping
 Date,Дата,module,Magento_Shipping
 "Local Time","Местно време",module,Magento_Shipping
 Description,Описание,module,Magento_Shipping
+"This order already has associated case entity","Тази поръчка вече е свързана с обект",module,Magento_Signifyd
+"The case entity should not be empty.","Стойността на случая не трябва да е празна.",module,Magento_Signifyd
+"Cannot update Case entity.","Не може да актуализира обект.",module,Magento_Signifyd
+"The ""%1"" should not be empty.","""%1"" не трябва да е празен.",module,Magento_Signifyd
+"Case entity not found.","Обект не е намерен.",module,Magento_Signifyd
+"Case Update: New score for the order is %1. Previous score was %2.","Случай актуализация: Новия резултат за поръчката е %1. Предишен резултат е %2.",module,Magento_Signifyd
+Error,Грешка,module,Magento_Signifyd
+"Cannot generate message.","Не може да генерира съобщение.",module,Magento_Signifyd
+"Message is generated.","Съобщението се генерира.",module,Magento_Signifyd
+"Fraud Protection Information","Информация за защита от измама",module,Magento_Signifyd
 "Save & Generate","Запис и генериране",module,Magento_Sitemap
 "Edit Sitemap","Редактиране на карта на сайта",module,Magento_Sitemap
 "New Sitemap","Нова карта на сайта",module,Magento_Sitemap
@@ -3931,8 +4036,8 @@ Never,Никога,module,Magento_Sitemap
 None,Николко,module,Magento_Sitemap
 "Base Only","База само",module,Magento_Sitemap
 All,Всички,module,Magento_Sitemap
-"Invalid store parameter.","Невалиден параметър за магазин",module,Magento_Store
 "Current store is not active.","Текущият магазин не е активен.",module,Magento_Store
+"Requested store is not found","Исканият магазин не е намерен",module,Magento_Store
 "Requested store is inactive","Исканият магазин е неактивен",module,Magento_Store
 "Environment emulation nesting is not allowed.","Емулация на околната среда не е позволена.",module,Magento_Store
 "Store with the same code","Съхранява със същия код",module,Magento_Store
@@ -3940,6 +4045,7 @@ All,Всички,module,Magento_Sitemap
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Код на уеб сайт може да съдържа само букви (a-z), цифри (0-9) или долна черта (_), и първия знак трябва да бъде буква.",module,Magento_Store
 "The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Кодът на магазина може да съдържа само букви (a-z), цифри (0-9) или долна черта (_), и първия знак трябва да бъде буква.",module,Magento_Store
 "Store is inactive","Магазина е неактивен",module,Magento_Store
+"Invalid store parameter.","Невалиден параметър за магазин",module,Magento_Store
 "Default store is inactive","Магазин по подразбиране не е активен",module,Magento_Store
 "All Store Views","Изгледи на всички магазини",module,Magento_Store
 "-- Please Select --","-- Моля изберете --",module,Magento_Store
@@ -3949,7 +4055,7 @@ Admin,Админ,module,Magento_Store
 "Your Language","Вашия език",module,Magento_Store
 Language,Език,module,Magento_Store
 "Select Store","Изберете Магазин",module,Magento_Store
-"Admin is a required field in the each row","Админ е задължително поле във всеки ред",module,Magento_Swatches
+"Admin is a required field in each row","Админ е задължително поле във всеки ред",module,Magento_Swatches
 "Update Product Preview Image","Актуализиране на изображение за визуализация на продукт",module,Magento_Swatches
 "Filtering by this attribute will update the product image on catalog page","Филтрирането по този атрибут ще актуализира изображението на продукта в страницата на каталога",module,Magento_Swatches
 "Use Product Image for Swatch if Possible","Използвайте продукт изображение за мостра, ако е възможно",module,Magento_Swatches
@@ -3987,7 +4093,6 @@ Rate,Оценка,module,Magento_TaxImportExport
 "Invalid file upload attempt","Невалиден файл качване опит",module,Magento_TaxImportExport
 "Invalid file upload attempt.","Невалиден файл качване опит.",module,Magento_TaxImportExport
 "Invalid file format.","Невалиден файлов формат.",module,Magento_TaxImportExport
-"One of the countries has invalid code.","Една от страните има невалиден код.",module,Magento_TaxImportExport
 "Import Tax Rates","Импортиране на данъчните ставки",module,Magento_TaxImportExport
 "Export Tax Rates","Експортиране на данъчните ставки",module,Magento_TaxImportExport
 "Tax Rate Information","Данъчна ставка информация",module,Magento_Tax
@@ -4026,7 +4131,7 @@ Priority,Приоритет,module,Magento_Tax
 "Shipping Incl. Tax (%1)","Доставка вкл. данък (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Доставка без ДДС (%1)",module,Magento_Tax
 "Subtotal (Excl.Tax)","Междинна сума",module,Magento_Tax
-"Subtotal (Incl.Tax)","Междинна сума",module,Magento_Tax
+"Subtotal (Incl.Tax)","Междинна сума ",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Доставка & обработка (Без ДДС)",module,Magento_Tax
 "Shipping & Handling (Incl.Tax)","Доставка & обработка (С ДДС)",module,Magento_Tax
 "Grand Total (Excl.Tax)","Обща сума (Без ДДС)",module,Magento_Tax
@@ -4090,7 +4195,12 @@ Total,Общо,module,Magento_Tax
 "Including Tax","С данък",module,Magento_Tax
 None,Никакво,module,Magento_Tax
 "Including and Excluding Tax","Със и без данък",module,Magento_Tax
+"To apply the discount on prices including tax and apply the tax after discount, set Catalog Prices to “Including Tax”. ","За да се приложи отстъпка на цени с включени данъци и да приложите данъка след отстъпката, задайте каталог цени за ""Вкл"". ",module,Magento_Tax
+"Store(s) affected: "," Магазини засегнати: ",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Щракнете върху връзката, за да <a href=""%1""> игнорирате това съобщение</a>",module,Magento_Tax
+"With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations. ","С клиентско данъчно прилагане на ""Преди отстъпка"", изчисление на крайното отстъпка може да не съвпадат техните очаквания. ",module,Magento_Tax
+"Your current tax configuration may result in rounding errors. ","Текущата ви конфигурация данък може да доведе до грешки от закръгляване. ",module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ","Моля, вижте <a href=""%1""> документацията</a> за повече подробности. ",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Щракнете тук, за да отидете на <a href=""%1""> Конфигурация на данък</a> и промените вашите настройки.",module,Magento_Tax
 "Invalid type of tax class ""%1""","Невалиден тип на данъчен клас ""%1""",module,Magento_Tax
 "Updating classType is not allowed.","Актуализиране на classType не е позволено.",module,Magento_Tax
@@ -4322,8 +4432,10 @@ No,Не,module,Magento_UrlRewrite
 "URL key for specified store already exists.","URL ключ за указаното хранилище вече съществува.",module,Magento_UrlRewrite
 "message %1","съобщение %1",module,Magento_UrlRewrite
 message,съобщение,module,Magento_UrlRewrite
-"Custom storage message","Съобщение за потребителско съхранение",module,Magento_UrlRewrite
+"Custom storage message"," Съобщение за потребителско съхранение",module,Magento_UrlRewrite
 "Select Category","Изберете категория",module,Magento_UrlRewrite
+"The value specified in the URL Key field would generate a URL that already exists.","Стойността, посочена в полето URL Key адрес, би генериралo URL адрес, който вече съществува.",module,Magento_UrlRewrite
+"To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:","За да разрешите този конфликт, можете или да промените стойността на полето URL Key адрес (намиращo се в секцията за оптимизиране на търсачките) на уникална стойност, или да промените ""Заяви път"" полетата във всички изброени по-долу местоположения:",module,Magento_UrlRewrite
 Back,Назад,module,Magento_User
 Reset,Изчисти,module,Magento_User
 "Delete Role","Изтрий ролята",module,Magento_User
@@ -4368,6 +4480,7 @@ Role,Роля,module,Magento_User
 "User Information","Информация за потребителя",module,Magento_User
 "User Info","Информация за потребителя",module,Magento_User
 "User Role","Потребителска роля",module,Magento_User
+"Please correct the password reset token.","Моля, поправете маркер за възстановяване на паролата.",module,Magento_User
 "Please specify the correct account and try again.","Задайте правилният профил и опитайте отново.",module,Magento_User
 "Your password reset link has expired.","Линкът за възстановяване на вашата парола е изтекъл.",module,Magento_User
 "We'll email you a link to reset your password.","Ние ще ви изпратим линк да промените паролата си.",module,Magento_User
@@ -4426,7 +4539,7 @@ Resources,Средства,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Предупреждение! \r\nThis действие ще премахне този потребител от вече определям role\r\nAre сигурни ли сте?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Предупреждение! \r\nThis действие ще премахне този потребител от вече определям role\r\nAre сигурни ли сте?",module,Magento_User
 "First-Class Mail Large Envelope","Първокласна поща голям плик",module,Magento_Usps
-"First-Class Mail Letter","Писмо по първокласна поща",module,Magento_Usps
+"First-Class Mail Letter","Писмо по първокласна поща ",module,Magento_Usps
 "Small Flat-Rate Box","Малка фиксирана кутия",module,Magento_Usps
 "Medium Flat-Rate Box","Средна фиксирана кутия",module,Magento_Usps
 "Large Flat-Rate Box","Голяма фиксирана кутия",module,Magento_Usps
@@ -4503,7 +4616,6 @@ label,етикет,module,Magento_Widget
 Choose...,Избери...,module,Magento_Widget
 Close,Затвори,module,Magento_Widget
 "Not Selected","Не са избрани",module,Magento_Widget
-Widget,Джаджа,module,Magento_Widget
 "Widget Type","Тип на джаджа",module,Magento_Widget
 "-- Please Select --","-- Моля изберете --",module,Magento_Widget
 "Manage Widget Instances","Управление на джаджа случаи",module,Magento_Widget
@@ -4536,6 +4648,7 @@ Products,Продукти,module,Magento_Widget
 Settings,Настройки,module,Magento_Widget
 "Design Theme","Тема дизайн",module,Magento_Widget
 Continue,Продължи,module,Magento_Widget
+Widget,Джаджа,module,Magento_Widget
 "Please specify a Widget Type.","Моля посочете тип уиджет.",module,Magento_Widget
 "Please specify a correct widget.","Моля Задайте правилната джаджа.",module,Magento_Widget
 "The widget instance has been deleted.","Изтрит е екземпляр на джаджа.",module,Magento_Widget
@@ -4575,19 +4688,19 @@ Page,Страница,module,Magento_Widget
 "Please enter a valid email address.","Моля, въведете валиден е-мейл адрес.",module,Magento_Wishlist
 "Your wish list has been shared.","Вашият Списък с желани продукти е бил споделен.",module,Magento_Wishlist
 "We can't delete item from Wish List right now.","Не може да изтриете елемент от Списък с желани продукти  точно сега.",module,Magento_Wishlist
+"%1 has been updated in your Wish List.","%1 е актуализиран във вашия Списък с желани продукти ",module,Magento_Wishlist
 "Can't save description %1","Не може да запише описание %1",module,Magento_Wishlist
-"Can't update wish list","Не може да актуализира Списък с желани продукти",module,Magento_Wishlist
-"%1 has been updated in your Wish List.","%1 е актуализиран във вашия Списък с желани продукти",module,Magento_Wishlist
+"Can't update wish list","Не може да актуализира Списък с желани продукти ",module,Magento_Wishlist
 "We can't update your Wish List right now.","Не може да актуализирате вашия Списък с желани продукти точно сега.",module,Magento_Wishlist
 "The requested Wish List doesn't exist.","Заявеният Списък с желани продукти  не съществува.",module,Magento_Wishlist
 "We can't create the Wish List right now.","Не може да създаде Списък с желани продукти  точно сега.",module,Magento_Wishlist
 "%1 items","%1 артикули",module,Magento_Wishlist
 "1 item","1 артикул",module,Magento_Wishlist
 Comment,Коментар,module,Magento_Wishlist
-"Display number of items in wish list","Показване на броя на елементите в Списъка с желани продукти",module,Magento_Wishlist
+"Display number of items in wish list","Показване на броя на елементите в Списъка с желани продукти ",module,Magento_Wishlist
 "Display item quantities","Покажи наличности по артикул",module,Magento_Wishlist
 "An item option with code %1 already exists.","Елемент опция с код %1 вече съществува.",module,Magento_Wishlist
-"We can't specify a wish list.","Не може да зададете Списък с желани продукти",module,Magento_Wishlist
+"We can't specify a wish list.","Не може да зададете Списък с желани продукти ",module,Magento_Wishlist
 "Cannot specify product.","Не може да определи продукт.",module,Magento_Wishlist
 "Product is not salable.","Продуктът не е продаваем.",module,Magento_Wishlist
 "Invalid item option format.","Невалиден елемент опция формат.",module,Magento_Wishlist
@@ -4642,17 +4755,9 @@ Back,Назад,module,Magento_Wishlist
 "Remove This Item","Премахнете този елемент",module,Magento_Wishlist
 "Go to Wish List","Отиди към списък с желания",module,Magento_Wishlist
 "You have no items in your wish list.","Нямате продукти във Вашия списък с желания.",module,Magento_Wishlist
-"Now Shopping by","Активни филтри",theme,frontend/Magento/luma
-Previous,Предишен,theme,frontend/Magento/luma
-Remove,Премахване,theme,frontend/Magento/luma
-"Remove This Item","Премахнете този елемент",theme,frontend/Magento/luma
-"Shop By","Пазаруване по",theme,frontend/Magento/luma
-"Clear All","Изчисти всички",theme,frontend/Magento/luma
-"Shopping Options","Опции за пазаруване",theme,frontend/Magento/luma
 "Place Order","Завърши поръчката",module,Magento_Authorizenet
 "Credit Card Information","Информация за кредитна карта",module,Magento_Braintree
 "What is this?","Какво е това?",module,Magento_Braintree
-"Save for later use.","Запиши за по-нататъшна употреба.",module,Magento_Braintree
 "Place Order","Завърши поръчката",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Внимание: Captcha различава малки и главни букви.",module,Magento_Captcha
 "Payment Transaction Failed Reminder","Напомняне за неуспешно плащане",module,Magento_Checkout
@@ -4675,6 +4780,7 @@ Password,Парола,module,Magento_Checkout
 Update,Обновяване,module,Magento_Checkout
 Cancel,Откажи,module,Magento_Checkout
 "Save in address book","Запиши в адресната книга",module,Magento_Checkout
+"Billing Address","Адрес за фактуриране",module,Magento_Checkout
 "Estimated Total","Изчисли всичко",module,Magento_Checkout
 "You can create an account after checkout.","Можете да се регистрирате след завършване на поръчката.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Вече имате акаунт. Влезете или да продължете като гост.",module,Magento_Checkout
@@ -4689,7 +4795,6 @@ Remove,Премахни,module,Magento_Checkout
 "Place Order","Завърши поръчката",module,Magento_Checkout
 "Forgot an Item?","Забравихте нещо?",module,Magento_Checkout
 "Edit Your Cart","Редактиране на Вашата количка",module,Magento_Checkout
-"Ship Here","Доставка до тук",module,Magento_Checkout
 "Ship To:","Доставка до:",module,Magento_Checkout
 edit,редактиране,module,Magento_Checkout
 "Order Summary","Обобщение на поръчката",module,Magento_Checkout
@@ -4729,10 +4834,12 @@ Password:,Парола:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Ако не сте направили това запитване, можете да игнорирате това съобщение и вашата парола ще остане същата.",module,Magento_Customer
 "Your %store_name password has been changed","%store_name паролата е променена",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Получихме искане за промяна на следната информация, свързана с вашия акаунт в %store_name: имейл.",module,Magento_Customer
+"Checkout as a new customer","Приключи поръчката като нов клиент",module,Magento_Customer
 "Creating an account has many benefits:","Създаване на сметка, има много предимства:",module,Magento_Customer
 "See order and shipping status","Статус на поръчка и доставка",module,Magento_Customer
 "Track order history","Проследяване на историята на поръчката",module,Magento_Customer
 "Check out faster","По-бързо приключване на поръчка",module,Magento_Customer
+"Checkout using your account","Приключете поръчката през вашия акаунт",module,Magento_Customer
 "Email Address","Имейл адрес",module,Magento_Customer
 "Currency Update Warnings","Предупреждения за актуализиране на валута",module,Magento_Directory
 Footer,"Долен колонтитул",module,Magento_Email
@@ -4818,64 +4925,22 @@ Options,Опции,module,Magento_Ui
 selected,избрано,module,Magento_Ui
 of,от,module,Magento_Ui
 Filters,Филтри,module,Magento_Ui
+"Hello,","Здравейте,",module,Magento_User
+"If you have not authorized this action, please contact us immediately at %store_email","Ако не сте разрешили това действие, моля свържете се с нас веднага в %store_email",module,Magento_User
+"or call us at %store_phone","или ни се обадете на %store_phone",module,Magento_User
+"Thanks,","Благодаря,",module,Magento_User
 "Password Reset Confirmation for %name","Потвърждението за нулиране на паролата за %name",module,Magento_User
 "There was recently a request to change the password for your account.","Наскоро имаше искане за промяна на паролата за вашия акаунт.",module,Magento_User
 "If you requested this change, reset your password here:","Ако сте поискали тази промяна, смените паролата си тук:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","Ако не сте направили това запитване, можете да игнорирате това съобщение и вашата парола ще остане същата.",module,Magento_User
 "Thank you,","Благодарим Ви,",module,Magento_User
 "New %changes for %user_name","Нова %changes за %user_name",module,Magento_User
-"Hello,","Здравейте,",module,Magento_User
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Получихме искане за промяна на следната информация, свързана с вашия акаунт в %store_name: имейл.",module,Magento_User
-"If you have not authorized this action, please contact us immediately at %store_email","Ако не сте разрешили това действие, моля свържете се с нас веднага в %store_email",module,Magento_User
-"or call us at %store_phone","или ни се обадете на %store_phone",module,Magento_User
-"Thanks,","Благодаря,",module,Magento_User
 "Take a look at %customer_name's Wish List","Вижте списъка с желания на %customer_name",module,Magento_Wishlist
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name иска да сподели този списък с желания от %store_name с вас:",module,Magento_Wishlist
 "Message from %customer_name:","Съобщение от %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Преглед на всички избрани продукти",module,Magento_Wishlist
-"Welcome to %store_name","Добре дошли в %store_name",theme,frontend/Magento/luma
-"Welcome to %store_name.","Добре дошли в %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","За да влезете в нашият сайт, използвайте тези идентификационни данни при приключване на поръчката или на страницата <a href=""%customer_url"">Моят профил</a>:",theme,frontend/Magento/luma
-Email:,Имейл:,theme,frontend/Magento/luma
-Password:,Парола:,theme,frontend/Magento/luma
-"Password you set when creating account","Парола, която сте задали при регистрация",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Забравили сте паролата си? Щракнете <a href=""%reset_url""> тук</a> за да генерирате нова парола.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Когато влезете в профила си, ще можете да:",theme,frontend/Magento/luma
-"Quick Checkout","Бърза поръчка",theme,frontend/Magento/luma
-"Proceed through checkout faster","Продължете по-бързо през финализиране на поръчката",theme,frontend/Magento/luma
-"Order Status","Статус на поръчката",theme,frontend/Magento/luma
-"Check the status of orders","Проверка на статуса на поръчките",theme,frontend/Magento/luma
-"Manage Addresses","Управление на адреси",theme,frontend/Magento/luma
-"Store alternative addresses","Съхраняване на допълнителни адреси",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","За доставка на няколко членове на семейството и приятели",theme,frontend/Magento/luma
-"Order History","История на поръчките",theme,frontend/Magento/luma
-"View past orders","Покажи последните поръчки",theme,frontend/Magento/luma
-Footer,"Долен колонтитул",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Часове на работа: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","Кредитно известие за вашата поръчка %store_name",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Благодарим ви за вашата поръчка от %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Можете да проверите статуса на вашата поръчка като <a href=""%account_url""> влезете във вашия акаунт</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Ако имате въпроси относно вашата поръчка, можете да ни пишете на <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Вашето кредитно известие #%creditmemo_id за поръчка #%order_id",theme,frontend/Magento/luma
-"Billing Info","Информация за фактуриране",theme,frontend/Magento/luma
-"Shipping Info","Информация за доставка",theme,frontend/Magento/luma
-"Payment Method","Метод на плащане",theme,frontend/Magento/luma
-"Shipping Method","Начин на доставка",theme,frontend/Magento/luma
-"Update to your %store_name credit memo","Актуализиране на вашето %store_name кредитно известие",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Вашата поръчка #%increment_id е актуализирана със статут на <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Invoice for your %store_name order","Фактура за вашата поръчка %store_name",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Вашата фактура #%invoice_id за поръчка #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name invoice","Актуализиране на вашата %store_name фактура",theme,frontend/Magento/luma
-"Your %store_name order confirmation","%store_name потвърждение на поръчката",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","След изпращане на вашата поръчка ще ви изпратим номер за проследяване.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Вашата поръчка <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Пуснати на <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","Актуализиране на вашата поръчка за %store_name",theme,frontend/Magento/luma
-"Your %store_name order has shipped","%store_name поръчката е изпратена",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Потвърждение за доставката. Благодаря ви отново за вашата поръчка.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Вашата пратка #%shipment_id за поръчка #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","Актуализиране на вашата %store_name пратка",theme,frontend/Magento/luma
+"Something went wrong.","Възникна грешка.",module,Magento_AsynchronousOperations
 "Sorry, but something went wrong. Please contact the seller.","За съжаление, но нещо се обърка. Моля свържете се с продавача.",module,Magento_Authorizenet
 "We could not detect a size.","Не успяхме да открием размер.",module,Magento_Backend
 "Warning message","Предупредително съобщение",module,Magento_Backend
@@ -4885,6 +4950,7 @@ MM,ММ,module,Magento_Braintree
 YY,ГГ,module,Magento_Braintree
 "Please try again with another form of payment.","Моля опитайте отново с друга форма на плащане.",module,Magento_Braintree
 "Sorry, but something went wrong.","Съжаляваме, но нещо се обърка.",module,Magento_Braintree
+"Payment ","Плащане ",module,Magento_Braintree
 "Add Products to New Option","Добави продукти към нова опция",module,Magento_Bundle
 "Add Products to Option ""%1""","Добави продукти към опция ""%1""",module,Magento_Bundle
 "Warning message","Предупредително съобщение",module,Magento_Catalog
@@ -4900,7 +4966,10 @@ Adding...,Добавяне...,module,Magento_Catalog
 Added,Добавен,module,Magento_Catalog
 "unselect all","премахване на избора от всички",module,Magento_Catalog
 Close,Затвори,module,Magento_CheckoutAgreements
+"Field ","Полето ",module,Magento_Checkout
+" is required."," е задължително.",module,Magento_Checkout
 "Provided Zip/Postal Code seems to be invalid.","Вписаният пощенски код не е валиден.",module,Magento_Checkout
+" Example: "," Пример: ",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Ако смятате, че това е правилното можете да игнорирате тази бележка.",module,Magento_Checkout
 "New Address","Нов адрес",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","Сигурни ли сте, че бихте искали да премахнете този елемент от количката?",module,Magento_Checkout
@@ -4931,8 +5000,6 @@ Shipping,Доставка,module,Magento_Checkout
 "Please select attribute(s).","Моля, изберете атрибут(и).",module,Magento_ConfigurableProduct
 "Generate Products","Генериране на продукти",module,Magento_ConfigurableProduct
 "Something went wrong.","Възникна грешка.",module,Magento_ConfigurableProduct
-"Buy %1 for %2 each and","Купувам %1 за %2 всеки",module,Magento_ConfigurableProduct
-save,запиши,module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Сигурни ли сте, че искате да направите това?",module,Magento_Customer
 "Are you sure you want to delete this address?","Наистина ли искате да изтриете този адрес?",module,Magento_Customer
 Weak,Слаба,module,Magento_Customer
@@ -4940,23 +5007,38 @@ Medium,Средна,module,Magento_Customer
 Strong,Силна,module,Magento_Customer
 "Very Strong","Много силна",module,Magento_Customer
 "Guest checkout is disabled.","Поръчката като гост е забранена.",module,Magento_Customer
+"Field ","Поле ",module,Magento_Dhl
+" is required."," е задължително.",module,Magento_Dhl
 "We could not detect a size.","Не успяхме да открием размер.",module,Magento_Downloadable
+"Field ","Поле ",module,Magento_Fedex
+" is required."," е задължително.",module,Magento_Fedex
+"Instant Purchase","Незабавна покупка",module,Magento_InstantPurchase
+"Instant Purchase Confirmation","Потвърждение за незабавна покупка",module,Magento_InstantPurchase
+"Are you sure you want to place order and pay?","Наистина ли искате да направите поръчка и да платите?",module,Magento_InstantPurchase
+"Shipping Address","Адрес за доставка",module,Magento_InstantPurchase
+"Billing Address","Адрес за фактуриране",module,Magento_InstantPurchase
+"Payment Method","Начин на плащане",module,Magento_InstantPurchase
+"Shipping Method","Начин на доставка",module,Magento_InstantPurchase
 "Sorry, something went wrong. Please try again later.","Опс, нещо не е наред, моля опитайте отново по-късно.",module,Magento_Integration
 "Popup Blocker is enabled! Please add this site to your exception list.","Блокирането на Изскачащи прозорци е включено! Моля, добавете този сайт към списъка с изключения.",module,Magento_Integration
 Allow,Разреши,module,Magento_Integration
 Done,Готово,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Поръчката  не може да бъде завършена, защото не е избран метод на плащане.",module,Magento_Multishipping
 "Please choose a payment method.","Моля, изберете метод на плащане.",module,Magento_Multishipping
+"Field ","Поле ",module,Magento_OfflineShipping
+" is required."," се изисква.",module,Magento_OfflineShipping
 "Please enter a valid credit card type number.","Моля, въведете номер на валидна кредитна карта.",module,Magento_Payment
 "Please enter a valid credit card number.","Моля, въведете номер на валидна кредитна карта.",module,Magento_Payment
 "Incorrect credit card expiration month.","Неправилен срок на валидност ( месец на изтичане) на картата.",module,Magento_Payment
 "Incorrect credit card expiration year.","Неправилна година на изтичане на картата.",module,Magento_Payment
 "Sorry, something went wrong.","За съжаление нещо се обърка.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Опс, нещо не е наред, моля опитайте отново по-късно.",module,Magento_Paypal
+"Welcome, %1!","Добре дошли, %s!",module,Magento_Persistent
 "Video Error","Грешка във видеото",module,Magento_ProductVideo
 "Unknown video type","Неизвестен тип на видео",module,Magento_ProductVideo
 "Invalid video url","Невалиден Url адрес на видеото",module,Magento_ProductVideo
 "Youtube API key is invalid","YouTube API ключ е невалиден",module,Magento_ProductVideo
+"Video cant be shown due to the following reason: ","Видеото не може да бъде показано поради следната причина: ",module,Magento_ProductVideo
 "Video not found","Видео не е намерено",module,Magento_ProductVideo
 "New Video","Ново видео",module,Magento_ProductVideo
 Save,Запази,module,Magento_ProductVideo
@@ -4964,10 +5046,13 @@ Cancel,Откажи,module,Magento_ProductVideo
 Delete,Изтрий,module,Magento_ProductVideo
 "Edit Video","Редактиране на видео",module,Magento_ProductVideo
 "Images and Videos","Снимки и видео",module,Magento_ProductVideo
+"Please select one of each of the ratings above.","Моля изберете една от оценките по-горе.",module,Magento_Review
 "This won't take long . . .","Това няма да отнеме много време . . .",module,Magento_Rule
 "Your coupon was successfully removed.","Вашият ваучер е премахнат успешно.",module,Magento_SalesRule
 "Your coupon was successfully applied.","Вашият ваучер беше успешно приложен.",module,Magento_SalesRule
+"Gift Options for ","Възможности за подарък ",module,Magento_Sales
 "You have item changes","Има промени по някои елементи",module,Magento_Sales
+"Not yet calculated","Все още не е калкулирано",module,Magento_Tax
 "We could not detect a size.","Не успяхме да открием размер.",module,Magento_Theme
 "We don't recognize this file extension.","Не можем да разпознаем това файлово разширение.",module,Magento_Theme
 Add,Добави,module,Magento_Ui
@@ -4993,7 +5078,6 @@ Off,Изключен,module,Magento_Ui
 from,от,module,Magento_Ui
 to,до,module,Magento_Ui
 "You haven't selected any items!","Не сте избрали никакви елементи!",module,Magento_Ui
-"Search by keyword","Търсене по ключова дума",module,Magento_Ui
 Keyword,"Ключова дума",module,Magento_Ui
 "Select Date","Избор на дата",module,Magento_Ui
 "Please enter more or equal than {0} symbols.","Въведете повече или равно от {0} символи.",module,Magento_Ui
@@ -5045,7 +5129,6 @@ Keyword,"Ключова дума",module,Magento_Ui
 "Please enter a valid integer in this field.","Въведете валидно число в това поле.",module,Magento_Ui
 "The value is not within the specified range.","Датата не е в рамките на определения обхват.",module,Magento_Ui
 "Please use letters only (a-z or A-Z) in this field.","Моля, използвайте само букви (a-z или A-Z) в това поле.",module,Magento_Ui
-"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Моля, използвайте само букви (a-z), цифри (0-9) или долна черта (_) в това поле, и първия знак трябва да бъде буква.",module,Magento_Ui
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Моля, използвайте само букви (a-z или A-Z) или цифри (0-9) в това поле. Без интервали или други знаци са позволени.",module,Magento_Ui
 "Please enter a valid date.","Моля, въведете валидна дата.",module,Magento_Ui
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Моля, въведете валиден URL ключ (Ex: ""например-страница"", ""пример-page.html"" или ""anotherlevel/пример-страница"").",module,Magento_Ui
@@ -5065,6 +5148,10 @@ Keyword,"Ключова дума",module,Magento_Ui
 Attention,Внимание,module,Magento_Ui
 OK,ОК,module,Magento_Ui
 Close,Затвори,module,Magento_Ui
+"Field ","Поле ",module,Magento_Ups
+" is required."," е задължително.",module,Magento_Ups
+"Field ","Поле ",module,Magento_Usps
+" is required."," е задължително.",module,Magento_Usps
 Cancel,Откажи,module,Magento_Vault
 "Show Toolbar","Покажи лента с инструменти",module,Magento_AdminNotification
 "Show List","Покажи списък",module,Magento_AdminNotification
@@ -5075,7 +5162,69 @@ Severity,Тежест,module,Magento_AdminNotification
 "Date Added","Дата на добавяне",module,Magento_AdminNotification
 Message,Съобщение,module,Magento_AdminNotification
 Actions,Действия,module,Magento_AdminNotification
-"Authorize.net Direct Post","Authorize.net директен пост",module,Magento_Authorizenet
+"Enable Search Recommendations","Разреши препоръките при търсене",module,Magento_AdvancedSearch
+"When you enable this option your site may slow down.","Когато активирате тази опция, Вашият сайт може да се забави.",module,Magento_AdvancedSearch
+"Search Recommendations Count","Брой на препоръките при търсене",module,Magento_AdvancedSearch
+"Show Results Count for Each Recommendation","Показване на броя на резултатите за всяка препоръка",module,Magento_AdvancedSearch
+"Enable Search Suggestions","Разрешаване на предложения за търсене",module,Magento_AdvancedSearch
+"Search Suggestions Count","Брой на предложенията при търсене",module,Magento_AdvancedSearch
+"Show Results Count for Each Suggestion","Показване на броя на резултатите за всяка препоръка",module,Magento_AdvancedSearch
+"Related search terms","Подобни търсения",module,Magento_AdvancedSearch
+"Did you mean","Може би имахте предвид",module,Magento_AdvancedSearch
+"Search Query","Заявка за търсене",module,Magento_AdvancedSearch
+Store,Магазин,module,Magento_AdvancedSearch
+Results,Резултати,module,Magento_AdvancedSearch
+Uses,Използвания,module,Magento_AdvancedSearch
+"Redirect URL","URL адрес за пренасочване",module,Magento_AdvancedSearch
+"Suggested Term","Предложен термин",module,Magento_AdvancedSearch
+Yes,Да,module,Magento_AdvancedSearch
+No,Не,module,Magento_AdvancedSearch
+Action,Действие,module,Magento_AdvancedSearch
+Edit,Редактирай,module,Magento_AdvancedSearch
+Analytics,Анализи,module,Magento_Analytics
+Configuration,Конфигурация,module,Magento_Analytics
+"Business Intelligence","Бизнес разузнаване",module,Magento_Analytics
+"BI Essentials","BI Основи",module,Magento_Analytics
+"Advanced Reporting Service","Разширена услугата за съобщаване",module,Magento_Analytics
+"Time of day to send data","Време от деня за изпращане на данни",module,Magento_Analytics
+Industry,Индустрия,module,Magento_Analytics
+"In order to personalize your Advanced Reporting experience, please select your industry.","За да персонализирате вашия опит в разширената отчетност, моля изберете вашата индустрия.",module,Magento_Analytics
+"<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Получите повече познания от Magento бизнес разузнаване</strong>",module,Magento_Analytics
+"Auto Parts","Авто части",module,Magento_Analytics
+"Baby/Children’s Apparel, Gear and Toys","Бебешки/детски дрехи, приспособления и играчки",module,Magento_Analytics
+"Beauty and Cosmetics","Красота и козметика",module,Magento_Analytics
+"Books, Music and Magazines","Книги, музика и списания",module,Magento_Analytics
+"Crafts and Stationery","Занаяти и канцеларски материали",module,Magento_Analytics
+"Consumer Electronics","Потребителска електроника",module,Magento_Analytics
+"Deal Site","Сделка сайт",module,Magento_Analytics
+"Fashion Apparel and Accessories","Модни облекла и аксесоари",module,Magento_Analytics
+"Food, Beverage and Grocery","Храни, напитки и хранителни стоки",module,Magento_Analytics
+"Home Goods and Furniture","Стоки за дома и мебели",module,Magento_Analytics
+"Home Improvement","Домашни потреби",module,Magento_Analytics
+"Jewelry and Watches","Бижута и часовници",module,Magento_Analytics
+"Mass Merchant","Масов търговец",module,Magento_Analytics
+"Office Supplies","Офис консумативи",module,Magento_Analytics
+"Outdoor and Camping Gear","Външни и къмпинг приспособления",module,Magento_Analytics
+"Pet Goods","Домашни стоки",module,Magento_Analytics
+"Pharma and Medical Devices","Фармацевтични и медицински изделия",module,Magento_Analytics
+"Technology B2B","Технология B2B",module,Magento_Analytics
+Other,Друг,module,Magento_Analytics
+"Action Log","Регистър на действията",module,Magento_AsynchronousOperations
+"Bulk Actions","Групови действия",module,Magento_AsynchronousOperations
+"Days Saved in Log","Дни, записани в регистрационния файл",module,Magento_AsynchronousOperations
+"Description of Operation","Описание на операцията",module,Magento_AsynchronousOperations
+Summary,Обобщение,module,Magento_AsynchronousOperations
+"Start Time","Начално време",module,Magento_AsynchronousOperations
+"Items to Retry","Елементи за повторен опит",module,Magento_AsynchronousOperations
+"To retry, select the items and click “Retry”.","За повторен опит, изберете елементите и щракнете върху ""Опитай отново"".",module,Magento_AsynchronousOperations
+"Items That Can’t Be Updated.","Елементи, които не могат да бъдат актуализирани.",module,Magento_AsynchronousOperations
+ID,"Идентификационнен номер",module,Magento_AsynchronousOperations
+Status,Статус,module,Magento_AsynchronousOperations
+"Meta Information","Мета информация",module,Magento_AsynchronousOperations
+Error,Грешка,module,Magento_AsynchronousOperations
+"Dismiss All Completed Tasks","Отхвърли всички завършени задачи",module,Magento_AsynchronousOperations
+"Action Details - #","Действие детайли - #",module,Magento_AsynchronousOperations
+"Number of Records Affected","Брой на засегнатите записи",module,Magento_AsynchronousOperations
 Enabled,Активиран,module,Magento_Authorizenet
 "Payment Action","Платежно действие",module,Magento_Authorizenet
 Title,Заглавие,module,Magento_Authorizenet
@@ -5115,6 +5264,13 @@ Attributes,Атрибути,module,Magento_Backend
 "Connect Manager","Мениджър свързване",module,Magento_Backend
 "Package Extensions","Пакет разширения",module,Magento_Backend
 Tools,Инструменти,module,Magento_Backend
+"Clean Cache Actions","Изчисти кеш действия",module,Magento_Backend
+"Cache Types Management","Управление на съхраняването на кеша",module,Magento_Backend
+"Toggle Cache Type","Превключване тип на кеша",module,Magento_Backend
+"Refresh Cache Type","Обнови тип кеш",module,Magento_Backend
+"Catalog Images Cache","Каталог изображения кеш",module,Magento_Backend
+"Flush Js/Css","Изчисти Js/Css",module,Magento_Backend
+"Flush Static Files","Изчистване на кеша на статичните файлове",module,Magento_Backend
 "Web Setup Wizard","Съветник за уеб инсталиране",module,Magento_Backend
 Currency,Валута,module,Magento_Backend
 Communications,Комуникации,module,Magento_Backend
@@ -5174,11 +5330,12 @@ City,Град,module,Magento_Backend
 "Mail Sending Settings","Настройки за изпращане на поща",module,Magento_Backend
 "Disable Email Communications","Забрани изпращането на имейл съобщения",module,Magento_Backend
 Host,Хост,module,Magento_Backend
+"For Windows server only.","За Windows server само.",module,Magento_Backend
 "Port (25)","Порт (25)",module,Magento_Backend
 "Set Return-Path","Задаване на Return-Path",module,Magento_Backend
 Admin,Админ,module,Magento_Backend
 "Admin User Emails","Email адрес на администратора",module,Magento_Backend
-"Forgot Password Email Template","Шаблон за ""Забравена парола""",module,Magento_Backend
+"Forgot Password Email Template","Имейл шаблон за ""Забравена парола""",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Email шаблона, който е избран въз основа на йерархията на темата, когато опцията ""По подразбиране"" е избрана.",module,Magento_Backend
 "Forgot and Reset Email Sender","Забрави и възстанови изпращача на email-а",module,Magento_Backend
 "Startup Page","Стартиране на страница",module,Magento_Backend
@@ -5204,6 +5361,7 @@ Web,Уеб,module,Magento_Backend
 "Search Engine Optimization","Оптимизация за търсачки",module,Magento_Backend
 "Use Web Server Rewrites","Използвай Web сървър Rewrites",module,Magento_Backend
 "Base URLs","Основа на URL адреси",module,Magento_Backend
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. http://example.com/magento/","Никое от полетата позволяват напълно квалифицирани URL адреси, които завършват с ""/"" (наклонена черта) например http://example.com/magento/",module,Magento_Backend
 "Base URL","Основен URL",module,Magento_Backend
 "Specify URL or {{base_url}} placeholder.","Задайте URL адрес или {{base_url}} контейнер.",module,Magento_Backend
 "Base Link URL","Базова връзка URL",module,Magento_Backend
@@ -5211,6 +5369,7 @@ Web,Уеб,module,Magento_Backend
 "May be empty or start with {{unsecure_base_url}} placeholder.","Може да бъде празно или започнете с {{unsecure_base_url}} контейнер.",module,Magento_Backend
 "Base URL for User Media Files","Основен URL за потребителски мултимедийни файлове",module,Magento_Backend
 "Base URLs (Secure)","Основен URL адреси (защитен)",module,Magento_Backend
+"Any of the fields allow fully qualified URLs that end with '/' (slash) e.g. https://example.com/magento/","Никое от полетата позволяват напълно квалифицирани URL адреси, които завършват с ""/"" (наклонена черта) например https://example.com/magento/",module,Magento_Backend
 "Secure Base URL","Сигурен основен URL",module,Magento_Backend
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Задайте URL адрес или {{base_url}}, или {{unsecure_base_url}} контейнер.",module,Magento_Backend
 "Secure Base Link URL","Сигурна базова връзка URL",module,Magento_Backend
@@ -5236,6 +5395,7 @@ Description,Описание,module,Magento_Backend
 Tags,Тагове,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">Грешка 404</h1><p>Страницата не е намерена.</p>",module,Magento_Backend
 "Default Theme","Тема по подразбиране",module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Ако не е избрана стойност, ще се използва системната стойност. Системната стойност може да бъде променена от външно инсталирани разширения/модули.",module,Magento_Backend
 "Applied Theme","Приложена тема",module,Magento_Backend
 "Design Rule","Правило за дизайн",module,Magento_Backend
 "User Agent Rules","Правила за User Agent",module,Magento_Backend
@@ -5250,9 +5410,7 @@ Pagination,Страниране,module,Magento_Backend
 "Anchor Text for Next","Текст на връзката за ""Следващи""",module,Magento_Backend
 "Theme Name","Име на тема",module,Magento_Backend
 Rollback,"Връщане към предишна версия",module,Magento_Backup
-"Scheduled Backup Settings","Настройки за планирано архивиране",module,Magento_Backup
 "Enable Scheduled Backup","Разреши планирано архивиране",module,Magento_Backup
-"Backup Type","Тип архивиране",module,Magento_Backup
 "Start Time","Начален час",module,Magento_Backup
 Frequency,Честота,module,Magento_Backup
 "Maintenance Mode","Режим на профилактика",module,Magento_Backup
@@ -5264,6 +5422,17 @@ Size(bytes),"Размер (bytes)",module,Magento_Backup
 Type,Тип,module,Magento_Backup
 Download,Свали,module,Magento_Backup
 Action,Действие,module,Magento_Backup
+"Credit card type is not accepted by this merchant account.","Тип кредитна карта не се приема от този търговец сметка.",module,Magento_Braintree
+"Cannot refund a transaction unless it is settled.","Не може да възстановяване транзакция, освен ако това е постоянен.",module,Magento_Braintree
+"Cannot submit for settlement unless status is authorized.","Не може да представи за уреждане, освен ако състоянието е упълномощен.",module,Magento_Braintree
+"Customer does not have any credit cards.","Клиента няма никакви кредитни карти.",module,Magento_Braintree
+"Transaction has already been completely refunded.","Транзакцията вече е напълно възстановена.",module,Magento_Braintree
+"Processor authorization code cannot be set unless for a voice authorization.","Процесор разрешение код не може да бъде зададено освен ако за разрешително на глас.",module,Magento_Braintree
+"Refund amount is too large.","Сумата за възстановяване е твърде голямa.",module,Magento_Braintree
+"Cannot provide a billing address unless also providing a credit card.","Не може да осигури пълен адрес за фактуриране, освен ако също предоставяне на кредитна карта.",module,Magento_Braintree
+"Merchant account does not support refunds.","Сметката на търговеца не поддържа възстановявания.",module,Magento_Braintree
+"Too many concurrent attempts to refund this transaction. Try again later.","Твърде много едновременни опити да възстанови тази транзакция. Опитайте отново по-късно.",module,Magento_Braintree
+"Too many concurrent attempts to void this transaction. Try again later.","Твърде много едновременни опити да се анулира тази транзакция. Опитайте отново по-късно.",module,Magento_Braintree
 "Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Приемайте кредитни/дебитни карти и PayPal във Вашия Magento магазин. <br/> Без настройка или месечни такси и никога не оставяйте Вашите клиенти да напуснат Вашия магазин без да завършат покупката.",module,Magento_Braintree
 "Enable this Solution","Разреши това решение",module,Magento_Braintree
 "Enable PayPal through Braintree","Активирай PayPal чрез Braintree",module,Magento_Braintree
@@ -5279,7 +5448,9 @@ Environment,Среда,module,Magento_Braintree
 "Vault Title","Заглавие на сейфа",module,Magento_Braintree
 "Merchant Account ID","Акаунт на търговец ID",module,Magento_Braintree
 "Advanced Fraud Protection","Разширени протекции срещу измама",module,Magento_Braintree
+"Be sure to Enable Advanced Fraud Protection in Your Braintree Account in Settings/Processing Section","Не забравяйте да разрешите Разширено измама закрила в Брейнтри на профила в раздела Настройки/обработка",module,Magento_Braintree
 "Kount Merchant ID","Идентификация на търговеца",module,Magento_Braintree
+"Used for direct fraud tool integration. Make sure you also contact <a href=""mailto:accounts@braintreepayments.com"">accounts@braintreepayments.com</a> to setup your Kount account.","Използва се за директна измама инструмент интеграция. Уверете се, че сте се свържете с <a href=""mailto:accounts@braintreepayments.com""> accounts@braintreepayments.com</a> да настроите профила си Kount.",module,Magento_Braintree
 Debug,Дебъг,module,Magento_Braintree
 "CVV Verification","CVV проверка",module,Magento_Braintree
 "Credit Card Types","Типове кредитни карти",module,Magento_Braintree
@@ -5302,6 +5473,45 @@ Debug,Дебъг,module,Magento_Braintree
 "Dynamic Descriptors","Динамични дескриптори",module,Magento_Braintree
 Name,Име,module,Magento_Braintree
 Phone,Телефон,module,Magento_Braintree
+"CVV is required.","Изисква се CVV.",module,Magento_Braintree
+"CVV must be 4 digits for American Express and 3 digits for other card types.","CVV кода трябва да бъде 4 цифри за American Express и 3 цифри за други карти.",module,Magento_Braintree
+"Expiration date is required.","Дата на изтичане е задължителна.",module,Magento_Braintree
+"Expiration date is invalid.","Дата на изтичане е невалидна.",module,Magento_Braintree
+"Expiration year is invalid. It must be between 1975 and 2201.","Годината на изтичане е невалидна. Тя трябва да бъде между 1975 и 2201.",module,Magento_Braintree
+"Expiration month is invalid.","Изтичане месец е невалиден.",module,Magento_Braintree
+"Expiration year is invalid.","Годината на изтичане е невалидна.",module,Magento_Braintree
+"Credit card number is required.","Номер на кредитна карта е необходимо.",module,Magento_Braintree
+"Credit card number is invalid.","Номер на кредитна карта е невалиден.",module,Magento_Braintree
+"Credit card number must be 12-19 digits.","Номер на кредитна карта трябва да бъде 12-19 цифри.",module,Magento_Braintree
+"Cardholder name is too long.","Картодържателя име е твърде дълго.",module,Magento_Braintree
+"CVV verification failed.","Неуспешна проверка на CVV.",module,Magento_Braintree
+"Postal code verification failed.","Неуспешна проверка на пощенски код.",module,Magento_Braintree
+"Credit card number is prohibited.","Номера на кредитна карта е забранен.",module,Magento_Braintree
+"Addresses must have at least one field filled in.","Адресите трябва да имат поне едно поле попълнено.",module,Magento_Braintree
+"Company is too long.","Твърде дълго име на фирма",module,Magento_Braintree
+"Extended address is too long.","Разширен адрес е прекалено дълъг.",module,Magento_Braintree
+"First name is too long.","Първото име е твърде дълго.",module,Magento_Braintree
+"Last name is too long.","Фамилно име е твърде дълго.",module,Magento_Braintree
+"Locality is too long.","Местността е твърде дълга.",module,Magento_Braintree
+"Postal code is required.","Пощенски код се изисква.",module,Magento_Braintree
+"Postal code may contain no more than 9 letter or number characters.","Пощенски код може да съдържа не повече от 9 писмо или брой символи.",module,Magento_Braintree
+"Region is too long.","Регионът е твърде дълъг.",module,Magento_Braintree
+"Street address is required.","Пощенски адрес се изисква.",module,Magento_Braintree
+"Street address is too long.","Уличен адрес е прекалено дълъг.",module,Magento_Braintree
+"Postal code can only contain letters, numbers, spaces, and hyphens.","Пощенски код може да съдържа само букви, цифри, интервали и тирета.",module,Magento_Braintree
+"US state codes must be two characters to meet PayPal Seller Protection requirements.","САЩ държавни кодове трябва да бъдат два знака, за да отговорят на изискванията на PayPal за защита на продавача.",module,Magento_Braintree
+"Incomplete PayPal account information.","Непълна информация за PayPal акаунт.",module,Magento_Braintree
+"Invalid PayPal account information.","Невалидна информация за PayPal акаунт.",module,Magento_Braintree
+"PayPal Accounts are not accepted by this merchant account.","PayPal сметки не са приети от този търговец.",module,Magento_Braintree
+"Billing address format is invalid.","Формата на адреса за фактуриране е невалиден.",module,Magento_Braintree
+"Country name is not an accepted country.","Името на държавата не е приета страна.",module,Magento_Braintree
+"Country code is not accepted. Please contact the store administrator.","Кода на страната не е приет. Обърнете се към администратора на магазина.",module,Magento_Braintree
+"Provided country information is inconsistent.","Предоставената информация за дъжава е несъвместима.",module,Magento_Braintree
+"Customer has already reached the maximum of 50 addresses.","Клиентът вече е достигнал максимумът от 50 адреса.",module,Magento_Braintree
+"Address is invalid. Please contact the store administrator.","Адресът е невалиден. Обърнете се към администратора на магазина.",module,Magento_Braintree
+"Error communicating with PayPal.","Грешка при комуникация с PayPal.",module,Magento_Braintree
+"PayPal authentication expired.","PayPal удостоверяването е изтекло.",module,Magento_Braintree
+"Error executing PayPal order.","Грешка при изпълнение на PayPal поръчка.",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Приложете филтри, за да получите резултати. Ще бъдат показани само първите 100 записи в мрежата, ще можете да изтеглите пълната версия на отчета в .csv формат.",module,Magento_Braintree
 Select...,Изберете...,module,Magento_Braintree
 Status,Статус,module,Magento_Braintree
@@ -5333,6 +5543,7 @@ Forms,Форми,module,Magento_Captcha
 "Number of Symbols","Брой символи",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Моля, посочете най-малко 8 символа. Разрешен диапазон (например 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Символи, използвани в CAPTCHA",module,Magento_Captcha
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","Моля, използвайте само букви (а-я или А-Я) или цифри (0-9) в това поле. Без интервали или други знаци < br / > подобни търсят знаци (например ""и"", ""И"") намалява шанса за правилно разпознаване от клиента.",module,Magento_Captcha
 "Case Sensitive","Различава малки и главни букви",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Разреши разпознаване на CAPTCHA в магазина",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Ако е избрано, CAPTCHA ще бъде разрешена за формите за ""Регистрация"" и ""Забравена парола"".",module,Magento_Captcha
@@ -5346,7 +5557,9 @@ Inventory,Наличност,module,Magento_CatalogInventory
 "Only X left Threshold","Само X ляв праг",module,Magento_CatalogInventory
 "Display Products Availability in Stock on Storefront","Показване на стокова наличност на продукти в магазина",module,Magento_CatalogInventory
 "Product Stock Options","Опции за наличност на продукти",module,Magento_CatalogInventory
+"Please note that these settings apply to individual items in the cart, not to the entire cart.","Моля, имайте предвид, че тези настройки се прилагат за отделни артукули в количката, не към цялата количка.",module,Magento_CatalogInventory
 "Manage Stock","Управление на наличности",module,Magento_CatalogInventory
+"Changing can take some time due to processing whole catalog.","Промяната може да отнеме известно време поради обработка на целия каталог.",module,Magento_CatalogInventory
 Backorders,"Поръчки за неналични продукти",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Позволено максимално количество за количката за пазаруване",module,Magento_CatalogInventory
 "Out-of-Stock Threshold","Праг на изчерпана наличност",module,Magento_CatalogInventory
@@ -5386,10 +5599,12 @@ Apply,Приложи,module,Magento_CatalogRule
 "Discard subsequent rules","Отхвърляне на следващи правила",module,Magento_CatalogRule
 Yes,Да,module,Magento_CatalogRule
 No,Не,module,Magento_CatalogRule
+"Catalog Section","Раздел на каталога",module,Magento_CatalogSearch
 "Catalog Search","Каталог, Търсене",module,Magento_CatalogSearch
 "Popular Search Terms","Популярни думи за търсене",module,Magento_CatalogSearch
 "Minimal Query Length","Минимална дължина на заявката",module,Magento_CatalogSearch
 "Maximum Query Length","Максимална дължина на заявката",module,Magento_CatalogSearch
+"Number of top search results to cache","Брой на първите резултати от търсенето в кеша",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","Възстановяване на търсене на пълнотекстов индекс на продукт в каталога",module,Magento_CatalogSearch
 "Category URL Suffix","Категория URL суфикс",module,Magento_CatalogUrlRewrite
 "You need to refresh the cache.","Трябва да обновите кеша.",module,Magento_CatalogUrlRewrite
@@ -5432,7 +5647,6 @@ Comma-separated.,"Разделени със запетая.",module,Magento_Cata
 "Product Listing Sort by","Сортиране на продуктовия списък по",module,Magento_Catalog
 "Allow All Products per Page","Позволи показване на всички продукти на страница",module,Magento_Catalog
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","Дали да се показва опция ""Всички"" в списъка ""Покажи X на страница""",module,Magento_Catalog
-"E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Напр. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Обработката на динамичните стойности влияе върху производителността на каталога.",module,Magento_Catalog
 "Product Image Placeholders","Изображение, заместващо продуктовите снимки",module,Magento_Catalog
 "Search Engine Optimization","Оптимизация за търсачки",module,Magento_Catalog
 "Page Title Separator","Разделител за заглавието на страницата",module,Magento_Catalog
@@ -5449,6 +5663,7 @@ Comma-separated.,"Разделени със запетая.",module,Magento_Cata
 "Year Range","Годишен диапазон",module,Magento_Catalog
 "Please use a four-digit year format.","Моля, използвайте формат на година с четири цифри.",module,Magento_Catalog
 "Top Level Category","Топ ниво категория",module,Magento_Catalog
+System,Система,module,Magento_Catalog
 "Product Info Column","Продукт информация колона",module,Magento_Catalog
 "Block after Info Column","Блок след информация за колона",module,Magento_Catalog
 "Product Flat Data","Продуктови плоски данни",module,Magento_Catalog
@@ -5539,7 +5754,6 @@ Base,База,module,Magento_Catalog
 Values,Стойности,module,Magento_Catalog
 "Add this attribute to the list of column options in the product grid.","Добави този атрибут в списъка на опциите за филтриране в мрежата на продукта.",module,Magento_Catalog
 "Add this attribute to the list of filter options in the product grid.","Добави този атрибут в списъка на опциите за филтриране в мрежата на продукта.",module,Magento_Catalog
-System,Система,module,Magento_Catalog
 "All Store Views","Изглед на всички магазини",module,Magento_Catalog
 "Delete selected items?","Да се изтрият ли избраните артикули?",module,Magento_Catalog
 "Delete items","Изтрий артикули",module,Magento_Catalog
@@ -5588,6 +5802,7 @@ Payment,Плащане,module,Magento_Checkout
 "Not yet calculated","Все още не е калкулирано",module,Magento_Checkout
 "We received your order!","Получихме поръчката ви!",module,Magento_Checkout
 "Thank you for your purchase!","Благодарим Ви за вашата покупка!",module,Magento_Checkout
+"Save Page","Запази страница",module,Magento_Cms
 "Media Gallery","Мултимедийна галерия",module,Magento_Cms
 "Content Management","Управление на съдържанието",module,Magento_Cms
 "CMS Home Page","CMS начална страница",module,Magento_Cms
@@ -5676,6 +5891,7 @@ Visible,Видим,module,Magento_ConfigurableProduct
 Scope,Обхват,module,Magento_ConfigurableProduct
 Searchable,"Може да бъде търсен",module,Magento_ConfigurableProduct
 Comparable,Сравним,module,Magento_ConfigurableProduct
+"As low as: ","Толкова ниска, колкото: ",module,Magento_ConfigurableProduct
 "Contacts Section","Раздел ""Контакти""",module,Magento_Contact
 Contacts,Контакти,module,Magento_Contact
 "Contact Us","Свържете се с нас",module,Magento_Contact
@@ -5693,6 +5909,7 @@ Contacts,Контакти,module,Magento_Contact
 "Cookie Restriction Mode","Ограничен режим на Бисквитките",module,Magento_Cookie
 "Cron (Scheduled Tasks)","Планирани Задачи (Cron)",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","За правилни URL адреси, генерирани по време на cron работи моля уверете се, че уеб > защитен и незащитен база URL адреси са изрично определени. Всички времена са в минути.",module,Magento_Cron
+"Cron configuration options for group:","Cron конфигурационни опции за групата:",module,Magento_Cron
 "Generate Schedules Every","Генериране на графици за всеки",module,Magento_Cron
 "Schedule Ahead for","Планирай напред за",module,Magento_Cron
 "Missed if Not Run Within","Пропуснати, ако не се изпълняват в рамките",module,Magento_Cron
@@ -5722,10 +5939,14 @@ Currency,Валута,module,Magento_CurrencySymbol
 "Default Welcome Email","Добре дошли имейл по подразбиране",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Email шаблона, който е избран въз основа на йерархията на темата, когато опцията ""По подразбиране"" е избрана.",module,Magento_Customer
 "Default Welcome Email Without Password","Добре дошли имейл по подразбиране, без парола",module,Magento_Customer
+"This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","Този имейл ще бъде изпратен вместо имейла по подразбиране за добре дошли, ако даден клиент е създаден без парола. < br / > < br / > Имейл шаблон, избран въз основа на тема отпада, в случайте когато е избрана опция ""По подразбиране"".",module,Magento_Customer
 "Email Sender",Подател,module,Magento_Customer
 "Require Emails Confirmation","Изисквай потвърждение на адреси на ел. поща",module,Magento_Customer
 "Confirmation Link Email","Имейл за потвърждение връзка",module,Magento_Customer
 "Welcome Email","Имейл Добре дошли",module,Magento_Customer
+"This email will be sent instead of the Default Welcome Email, after account confirmation. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.","Този имейл ще бъде изпратен вместо имейла по подразбиране за добре дошли, след потвърждението на акаунта. < br / > < br / > Имейл шаблон, избран въз основа на тема отпада, когато е избрана опцията ""По подразбиране"".",module,Magento_Customer
 "Generate Human-Friendly Customer ID","Генериране на човешки приятелски клиент ID",module,Magento_Customer
 "Password Options","Настройки за паролата",module,Magento_Customer
 "Forgot Email Template","Забрави шаблон на имейл",module,Magento_Customer
@@ -5746,9 +5967,11 @@ Currency,Валута,module,Magento_CurrencySymbol
 "Change Email and Password Template","Промяна на имейл адреса и паролата",module,Magento_Customer
 "Name and Address Options","Опции Име и адрес",module,Magento_Customer
 "Number of Lines in a Street Address","Брой редове в адрес",module,Magento_Customer
+"Valid range: 1-4","Валиден диапазон: 1-4",module,Magento_Customer
 "Show Prefix","Покажи префикс",module,Magento_Customer
 "The title that goes before name (Mr., Mrs., etc.)","Заглавие, което върви пред името (г-н, г-жа и др.)",module,Magento_Customer
 "Prefix Dropdown Options","Префикс падащи опции",module,Magento_Customer
+"Semicolon (;) separated values.<br/>Leave empty for open text field.","Точка и запетая (;) стойности, разделени.<br/>оставете празно за отворен текстово поле.",module,Magento_Customer
 "Show Middle Name (initial)","Покажи бащино име (първоначалния)",module,Magento_Customer
 "Always optional.","Винаги по желание.",module,Magento_Customer
 "Show Suffix","Покажи суфикс",module,Magento_Customer
@@ -5767,20 +5990,21 @@ Currency,Валута,module,Magento_CurrencySymbol
 "Online Customers Options","Опции за онлайн клиенти",module,Magento_Customer
 "Online Minutes Interval","Минути от онлайн интервали",module,Magento_Customer
 "Leave empty for default (15 minutes).","Остави празно по подразбиране (15 минути).",module,Magento_Customer
+"Customer Data Lifetime","Период на валидност на клиентските данни",module,Magento_Customer
 "Please specify value in minutes.","Задайте стойност в минути.",module,Magento_Customer
 "Customer Notification","Клиентски известия",module,Magento_Customer
 "Assign a Customer Group","Присвояване на група клиенти",module,Magento_Customer
 "Are you sure to assign selected customers to new group?","Сигурни ли сте, че искате да добавите избраните клиенти към нова група?",module,Magento_Customer
 "Customer Grid","Клиентска мрежа",module,Magento_Customer
 "Rebuild Customer grid index","Възстанови индекса на клиентската мрежа",module,Magento_Customer
+"Middle Name/Initial","Бащино име/първоначално",module,Magento_Customer
+State/Province,"Област / Провинция",module,Magento_Customer
+"VAT Number","ДДС Номер",module,Magento_Customer
+"Delete items","Изтрий артикулите",module,Magento_Customer
 Group,Група,module,Magento_Customer
 "Add New Customer","Добавяне на нов клиент",module,Magento_Customer
-"Are you sure to delete selected customers?","Сигурни ли сте, че искате да изтриете избраните потребители?",module,Magento_Customer
-"Delete items","Изтрий артикулите",module,Magento_Customer
 "Subscribe to Newsletter","Записан за бюлетин",module,Magento_Customer
-"Are you sure to unsubscribe selected customers from newsletter?","Сигурни ли сте, че искате да отпишете избраните клиенти от бюлетина?",module,Magento_Customer
 "Unsubscribe from Newsletter","Отписване от бюлетина",module,Magento_Customer
-Phone,Телефон,module,Magento_Customer
 ZIP,"Пощенски код",module,Magento_Customer
 "Customer Since","Клиенти от",module,Magento_Customer
 "Confirmed email","Потвърден имейл",module,Magento_Customer
@@ -5789,15 +6013,12 @@ ZIP,"Пощенски код",module,Magento_Customer
 "Billing Firstname","Име за фактуриране",module,Magento_Customer
 "Billing Lastname","Фамилия за фактуриране",module,Magento_Customer
 "Account Lock","Заключване на профил",module,Magento_Customer
-"First Name",Име,module,Magento_Customer
-"Last Name",Фамилия,module,Magento_Customer
 "Last Activity","Последна активност",module,Magento_Customer
 Type,Тип,module,Magento_Customer
 "Customer Information","Информация за клиента",module,Magento_Customer
 "If your Magento installation has multiple websites, you can edit the scope to associate the customer with a specific site.","Ако вашата Magento инсталация има множество уеб сайтове, можете да редактирате обхвата и да свържете клиента с определен сайт.",module,Magento_Customer
 "Disable Automatic Group Change Based on VAT ID","Забраняване на автоматичната промяна на група на база на ДДС Идентификатор",module,Magento_Customer
 "Send Welcome Email From","Изпрати имейл за Добре дошли",module,Magento_Customer
-"Are you sure you want to delete this item?","Сигурни ли сте, че искате да изтриете артикула?",module,Magento_Customer
 Addresses,Адреси,module,Magento_Customer
 "Edit Account Information","Редактиране на информация за акаунта",module,Magento_Customer
 "Password forgotten","Забравена парола",module,Magento_Customer
@@ -5808,8 +6029,6 @@ Addresses,Адреси,module,Magento_Customer
 "Developer Client Restrictions","Клиентски ограничения на разработчика",module,Magento_Developer
 "Allowed IPs (comma separated)","Разрешени IP-та (разделени със запетая)",module,Magento_Developer
 "Leave empty for access from any location.","Оставете празно за достъп от всякъде.",module,Magento_Developer
-"Log to File","Лог на файл",module,Magento_Developer
-"Not available in production mode.","Не е налично в продуктов режим.",module,Magento_Developer
 "Enabled for Checkout","Разрешен за поръчка",module,Magento_Dhl
 "Gateway URL","URL терминал",module,Magento_Dhl
 Title,Заглавие,module,Magento_Dhl
@@ -5838,11 +6057,10 @@ Debug,"Отстраняване на грешки",module,Magento_Dhl
 "Currency Setup","Настройка на валута",module,Magento_Directory
 "Currency Options","Валутни опции",module,Magento_Directory
 "Base Currency","Основна валута",module,Magento_Directory
+"Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","Основната валута се използва за всички онлайн платежни транзакции. Oбхватът на основната валута обхватът е определен от каталожната цена на обхвата (""Каталог"" > ""Цена"" > ""Каталог ценови обхват"").",module,Magento_Directory
 "Default Display Currency","Покажи валутата по подразбиране",module,Magento_Directory
 "Allowed Currencies","Разрешени валути",module,Magento_Directory
-"Yahoo Finance Exchange","Yahoo финансова обмяна",module,Magento_Directory
 "Connection Timeout in Seconds","Изчакване на връзка в секунди",module,Magento_Directory
-Webservicex,WebserviceX,module,Magento_Directory
 "Scheduled Import Settings","Планирано импортиране на настройки",module,Magento_Directory
 Enabled,Разрешен,module,Magento_Directory
 "Error Email Recipient","Грешка в имейла на получателя",module,Magento_Directory
@@ -5869,8 +6087,22 @@ Downloads,Изтегляния,module,Magento_Downloadable
 "Use Content-Disposition","Използвайте съдържание-разпореждане",module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","Забрани приключване на проръчката като гост, ако количката съдържа продукти за сваляне",module,Magento_Downloadable
 "Guest checkout will only work with shareable.","Приключването на поръчката ще работи само при споделени продукти.",module,Magento_Downloadable
+"Text Field","Текстово поле",module,Magento_Eav
+"Text Area","Пространство за текст",module,Magento_Eav
+Date,Дата,module,Magento_Eav
+Yes/No,Да/не,module,Magento_Eav
+"Multiple Select","Многоброен избор",module,Magento_Eav
+Dropdown,"Падащо меню",module,Magento_Eav
 "EAV types and attributes","EAV типове и атрибути",module,Magento_Eav
 "Entity types declaration cache","Cache декларация за видове стойности",module,Magento_Eav
+"Elasticsearch Server Hostname","Elasticsearch сървър хост",module,Magento_Elasticsearch
+"Elasticsearch Server Port","Elasticsearch порт на сървъра",module,Magento_Elasticsearch
+"Elasticsearch Index Prefix","Elasticsearch индекс префикс",module,Magento_Elasticsearch
+"Enable Elasticsearch HTTP Auth","Разреши Elasticsearch за HTTP удостоверяване",module,Magento_Elasticsearch
+"Elasticsearch HTTP Username","Elasticsearch HTTP потребителско име",module,Magento_Elasticsearch
+"Elasticsearch HTTP Password","Elasticsearch HTTP парола",module,Magento_Elasticsearch
+"Elasticsearch Server Timeout","Elasticsearch сървър изчакване",module,Magento_Elasticsearch
+"Test Connection","Тест връзка",module,Magento_Elasticsearch
 Communications,Комуникации,module,Magento_Email
 "No Templates Found","Няма намерени шаблони",module,Magento_Email
 ID,"Идентификационнен номер",module,Magento_Email
@@ -5929,6 +6161,7 @@ Enable,Разреши,module,Magento_GoogleAdwords
 "Conversion Label","Преобразуване етикет",module,Magento_GoogleAdwords
 "Conversion Value Type","Тип на стойност на реализация",module,Magento_GoogleAdwords
 "Conversion Value","Обменната стойност",module,Magento_GoogleAdwords
+"Send Order Currency","Изпрати валутата на поръчката",module,Magento_GoogleAdwords
 "Google Analytics","Google анализ",module,Magento_GoogleAnalytics
 Enable,Разреши,module,Magento_GoogleAnalytics
 "Account Number","Номер на сметка",module,Magento_GoogleAnalytics
@@ -5954,13 +6187,20 @@ Description,Описание,module,Magento_Indexer
 Mode,Режим,module,Magento_Indexer
 Status,Статус,module,Magento_Indexer
 Updated,Актуализиран,module,Magento_Indexer
+Enabled,Включен,module,Magento_InstantPurchase
+"Button Text","Текст на бутона",module,Magento_InstantPurchase
 Extensions,Разширения,module,Magento_Integration
 "Cleanup Settings","Настройки за почистване",module,Magento_Integration
 "Cleanup Probability","Вероятност за почистване",module,Magento_Integration
+"Integer. Launch cleanup in X OAuth requests. 0 (not recommended) - to disable cleanup","Цяло число. Стартиране на почистване в X OAuth заявки. 0 (не се препоръчва) - да забраните почистване",module,Magento_Integration
 "Expiration Period","Период на валидност",module,Magento_Integration
+"Cleanup entries older than X minutes.","Почистване на вътрешности стар отколкото X минути.",module,Magento_Integration
 "Consumer Settings","Потребителски настройки",module,Magento_Integration
+"Consumer key/secret will expire if not used within X seconds after Oauth token exchange starts.","Потребителски ключ/тайна ще изтече, ако не се използва в рамките на X секунди след Oauth символичен бюро започва.",module,Magento_Integration
 "OAuth consumer credentials HTTP Post maxredirects","OAuth потребителските идентификационни данни HTTP Post maxredirects",module,Magento_Integration
+"Number of maximum redirects for OAuth consumer credentials Post request.","Брой максимални пренасочвания за OAuth потребителски идентификационни данни, Post заявка.",module,Magento_Integration
 "OAuth consumer credentials HTTP Post timeout","OAuth потребителските идентификационни данни HTTP Post timeout",module,Magento_Integration
+"Timeout for OAuth consumer credentials Post request within X seconds.","Изчакване за OAuth потребителски идентификационни данни, Post заявка в Х секунди.",module,Magento_Integration
 "Integrations Configuration","Конфигурации за интеграции",module,Magento_Integration
 "Integration configuration file","Конфигурационен файл за интеграция",module,Magento_Integration
 "Integrations API Configuration","API конфигурация за интеграции",module,Magento_Integration
@@ -5977,6 +6217,7 @@ Status,Състояние,module,Magento_Integration
 "This setting will be applied when all prices in the specific price interval are equal.","Тази настройка ще се прилага, когато всички цени в специфични ценови интервали са равни.",module,Magento_LayeredNavigation
 "Interval Division Limit","Граница на интервална дивизия",module,Magento_LayeredNavigation
 "Please specify the number of products, that will not be divided into subintervals.","Моля, посочете броя на продукти, които не ще бъдат разделени в подинтервали.",module,Magento_LayeredNavigation
+"Find Partners & Extensions","Намери партньори & разширения",module,Magento_Marketplace
 "Storage Configuration for Media","Съхранение на конфигурация за медии",module,Magento_MediaStorage
 "Media Storage","Медия склад",module,Magento_MediaStorage
 "Select Media Database","Изберете мултимедийна база данни",module,Magento_MediaStorage
@@ -5994,6 +6235,13 @@ Options,Опции,module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Максимално количество, разрешено за доставка до няколко адреса",module,Magento_Multishipping
 "Review Order","Преглед на поръчката",module,Magento_Multishipping
 "Select Shipping Method","Изберете начин на доставка",module,Magento_Multishipping
+"Thank you for your purchase!","Благодарим Ви за вашата покупка!",module,Magento_Multishipping
+"MySQL Message Queue Cleanup","MySQL съобщение почистване на опашката",module,Magento_MysqlMq
+"All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Всички времена са в минути. Използвайте ""0"", ако искате да прескочите автоматично уравняване.",module,Magento_MysqlMq
+"Retry Messages In Progress After","Опитай отново съобщения в ход след",module,Magento_MysqlMq
+"Successful Messages Lifetime","Успешни Lifetime  съобщения",module,Magento_MysqlMq
+"Failed Messages Lifetime","Провалени Lifetime съобщения",module,Magento_MysqlMq
+"New Messages Lifetime","Нови Lifetime съобщения",module,Magento_MysqlMq
 "New Relic Reporting Section","Нов раздел за отчитане на следа",module,Magento_NewRelicReporting
 "New Relic Reporting","Нови следи отчитане",module,Magento_NewRelicReporting
 General,Главен,module,Magento_NewRelicReporting
@@ -6101,6 +6349,7 @@ Import,Импорт,module,Magento_OfflineShipping
 "Grace period","Гратисен период",module,Magento_PageCache
 "Specify grace period in seconds for config file generation. If field is empty default value 300 will be saved. This grace period will be used to serve cached content when the server is healthy. If the server is not healthy, cached content will be served for 3 days before failing.","Задайте гратисен период в секунди за конфигурационния файл поколение. Ако полето е празно по подразбиране стойност 300 ще бъдат записани. Този гратисен период ще бъдат използвани да обслужват кеширана съдържание, когато сървърът е здрава. Ако сървърът не е здрав, кеширано съдържание ще бъде връчено за 3 дни преди да завърши неуспешно.",module,Magento_PageCache
 "TTL for public content","TTL за публично съдържание",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved.","Времетраене на публичното съдържание на кеша в секунди. Ако полето е празно, тогава по подразбиране стойноста от 86400 ще бъде запазена.",module,Magento_PageCache
 "Page Cache","Кеш за страница",module,Magento_PageCache
 "Full page caching","Цяла страница кеширане",module,Magento_PageCache
 "Payment Services","Платежни услуги",module,Magento_Payment
@@ -6123,15 +6372,20 @@ Manage,Управление,module,Magento_Paypal
 "Payments Pro","Плащания про",module,Magento_Paypal
 "Payments Pro and Express Checkout","Плащания Pro и Експресна поръчка",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Основни настройки - PayPal плащания про",module,Magento_Paypal
+"Payments Standard","Стандартни плащания",module,Magento_Paypal
+"Accept credit card and PayPal payments securely.","Приемат се кредитни карти и PayPal плащания сигурно.",module,Magento_Paypal
+"Basic Settings - PayPal Website Payments Standard","Основни настройки - сайта PayPal плащания стандарт",module,Magento_Paypal
 "PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>","PayPal плащане портали <i>обработват плащания, използвайки своя собствена интернет търговец сметка.</i>",module,Magento_Paypal
 "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","PayPal всичко-в-едно плащане решения <i>Accept и процеса на кредитни карти и PayPal плащания.</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Приемаме плащания с напълно персонализируеми приключвания на страница.",module,Magento_Paypal
+"Website Payments Standard","Уебсайт плащания стандарт",module,Magento_Paypal
 "Process payments using your own internet merchant account.","Обработка на плащания чрез вашия собствен интернет търговски акаунт.",module,Magento_Paypal
 "Website Payments Pro","Уебсайт плащания про",module,Magento_Paypal
 "Express Checkout","Експресна поръчка",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Добави PayPal като метод за допълнително плащане към закупуването страница.",module,Magento_Paypal
 "Required PayPal Settings","Изисква PayPal настройки",module,Magento_Paypal
 "Email Associated with PayPal Merchant Account (Optional)","Имейл свързани с PayPal търговец сметка (по избор)",module,Magento_Paypal
+"<a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>","<a href=""http://www.magentocommerce.com/paypal"">Започнете да приемате плащания чрез PayPal!</a>",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Нямате PayPal акаунт? Просто въведете вашия имейл адрес.",module,Magento_Paypal
 "API Authentication Methods","Методи за удостоверяване на API",module,Magento_Paypal
 "API Username","API име",module,Magento_Paypal
@@ -6143,6 +6397,9 @@ Manage,Управление,module,Magento_Paypal
 "Proxy Port","Прокси порт",module,Magento_Paypal
 "Enable this Solution","Разреши това решение",module,Magento_Paypal
 "Enable In-Context Checkout Experience","Разреши в контекста Checkout опит",module,Magento_Paypal
+"See PayPal Feature Support details and list of supported regions
+                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">here</a>.","Вижте PayPal поддръжка информация и списък с поддържани региони
+                    <a href=""https://developer.paypal.com/docs/classic/express-checkout/in-context/"" target=""_blank"">тук</a>.",module,Magento_Paypal
 "Merchant Account ID","Търговец сметка ID",module,Magento_Paypal
 "Enable PayPal Credit","Разреши PayPal кредит",module,Magento_Paypal
 "Sort Order PayPal Credit","Сортиране ред PayPal кредитна",module,Magento_Paypal
@@ -6248,6 +6505,7 @@ User,Потребител,module,Magento_Paypal
 "Vault Title","Заглавие каса",module,Magento_Paypal
 "Credit Card Settings","Настройки на кредитна карта",module,Magento_Paypal
 "Allowed Credit Card Types","Разрешени типове кредитни карти",module,Magento_Paypal
+"Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.","Поддръжка на American Express карти изисква допълнително споразумение. Научете повече в <a href=""http://www.paypal.com/amexupdate""> http://www.paypal.com/amexupdate</a>.",module,Magento_Paypal
 "CVV and AVS Settings","CVV и AVS настройки",module,Magento_Paypal
 "Reject Transaction if:","Отхвърля сделката, ако:",module,Magento_Paypal
 "AVS Street Does Not Match","AVS улица не съвпада",module,Magento_Paypal
@@ -6331,7 +6589,7 @@ undefined,неопределен,module,Magento_Reports
 "Allow Guests to Write Reviews","Позволи на гостите да пишат коментари",module,Magento_Review
 Active,Активен,module,Magento_Review
 Inactive,Неактивен,module,Magento_Review
-"RSS Feeds Section","RSS емисии",module,Magento_Rss
+"RSS Feeds Section","RSS емисии ",module,Magento_Rss
 "RSS Feeds","RSS емисии",module,Magento_Rss
 "Rss Config","Rss конфигурация",module,Magento_Rss
 "Enable RSS","Разрешаване на RSS",module,Magento_Rss
@@ -6348,8 +6606,16 @@ Description,Описание,module,Magento_SalesRule
 Websites,"Уеб сайтове",module,Magento_SalesRule
 "Customer Groups","Клиентски групи",module,Magento_SalesRule
 Coupon,Ваучер,module,Magento_SalesRule
+"
+                    If you select and save the rule you will be able to generate multiple coupon codes.
+                ","
+Ако изберете и запишете правилото ще бъдете в състояние да генерирате множество кодове за купони.                ",module,Magento_SalesRule
 "Use Auto Generation","Използване на автоматично генериране",module,Magento_SalesRule
 "Uses per Coupon","Използвания на ваучер",module,Magento_SalesRule
+"
+                    Usage limit enforced for logged in customers only.
+                ","
+Лимит за ползване е приложен само за влезли клиенти.                ",module,Magento_SalesRule
 "Uses per Customer","Ползвания на клиент",module,Magento_SalesRule
 From,От,module,Magento_SalesRule
 To,До,module,Magento_SalesRule
@@ -6374,7 +6640,9 @@ General,Основен,module,Magento_Sales
 "Checkout Totals Sort Order","Ред за сортиране на касата суми",module,Magento_Sales
 "Allow Reorder","Позволи пренареждане",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Лого за PDF разпечатки (200 x 50)",module,Magento_Sales
+"Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Логото ви по подразбиране ще се използва в HTML и PDF документи. < br />(jpeg, tiff, png) ако pdf изображението е изкривено, опитайте да използвате по-голям размер на файла.",module,Magento_Sales
 "Logo for HTML Print View","Лого за изглед HTML печат",module,Magento_Sales
+"Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)","Лого за HTML документи само. Ако е празно, ще се използва по подразбиране.<br />(jpeg, gif, png)",module,Magento_Sales
 Address,Адрес,module,Magento_Sales
 "Minimum Order Amount","Минимално количество на поръчката",module,Magento_Sales
 "Minimum Amount","Минимална сума",module,Magento_Sales
@@ -6437,6 +6705,7 @@ Shipment,Доставка,module,Magento_Sales
 "Send Credit Memo Comment Email Copy To","Изпрати копие на коментара към Кредитно известие до",module,Magento_Sales
 "Send Credit Memo Comments Email Copy Method","Копие метод за изпращане на имейл с коментари на кредитно известие",module,Magento_Sales
 "Customer Order Status Notification","Уведомление за състоянието на поръчка на клиент",module,Magento_Sales
+"Grid Settings","Настройки на мрежата",module,Magento_Sales
 "Asynchronous indexing","Асинхронно индексиране",module,Magento_Sales
 "Orders and Returns Search Form","Поръчки и рекламации - форма за търсене",module,Magento_Sales
 "Anchor Custom Title","Котва заглавие по подразбиране",module,Magento_Sales
@@ -6523,6 +6792,11 @@ City,Град,module,Magento_Shipping
 "Shipping Policy","Доставка политика",module,Magento_Shipping
 "Shipping Methods","Методи на доставка",module,Magento_Shipping
 "Track your order","Проследете вашата поръчка",module,Magento_Shipping
+"Fraud Protection Section","Раздел за защита от измами",module,Magento_Signifyd
+"Fraud Protection","Защита срещу измами",module,Magento_Signifyd
+"Enable this Solution","Разреши това решение",module,Magento_Signifyd
+"API Key","API ключ",module,Magento_Signifyd
+Debug,Дебъг,module,Magento_Signifyd
 "XML Sitemap Section","XML карта на сайта раздел",module,Magento_Sitemap
 "Categories Options","Категории опции",module,Magento_Sitemap
 Frequency,Честота,module,Magento_Sitemap
@@ -6651,10 +6925,13 @@ Settings,Настройки,module,Magento_Theme
 "2 columns with right bar","2 колони с десен бар",module,Magento_Theme
 "3 columns","3 колони",module,Magento_Theme
 "Translation Strategy","Стратегия на превода",module,Magento_Translation
+"Please put your store into maintenance mode and redeploy static files after changing strategy","Моля поставете вашия магазин в режим на поддръжка и пренасочване статични файлове след смяна на стратегия",module,Magento_Translation
 Translations,Преводи,module,Magento_Translation
 "Translation files","Преводни файлове",module,Magento_Translation
 "Log JS Errors to Session Storage","Регистър JS грешки към сесия за съхранение на багаж",module,Magento_Ui
+"If enabled, can be used by functional tests for extended reporting","Ако е разрешен, може да бъде използван от функционални текстове за разширение на докладването.",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Регистър JS грешки към сесия за съхранение ключ",module,Magento_Ui
+"Use this key to retrieve collected js errors","Използвай този ключ за да събереш js errors",module,Magento_Ui
 Action,Действие,module,Magento_Ui
 "Access License Number","Достъп лиценз номер",module,Magento_Ups
 "Enabled for Checkout","Разрешен за поръчка",module,Magento_Ups
@@ -6748,7 +7025,7 @@ Name,Име,module,Magento_Variable
 "Get Customer","Вземи клиент",module,Magento_Webapi
 "Delete Customer","Изтрий клиент",module,Magento_Webapi
 "Magento Web API","Magento уеб API",module,Magento_Webapi
-"SOAP Settings","Настройки на SOAP",module,Magento_Webapi
+"SOAP Settings","Настройки на SOAP ",module,Magento_Webapi
 "Default Response Charset","По подразбиране отговор знаци",module,Magento_Webapi
 "If empty, UTF-8 will be used.","Ако е празна, ще се използва UTF-8.",module,Magento_Webapi
 "Web Services Configuration","Уеб услуги конфигурация",module,Magento_Webapi
@@ -6779,7 +7056,9 @@ Conditions,Условия,module,Magento_Widget
 "Email Template","Шаблон на имейл",module,Magento_Wishlist
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Имейл шаблон, избран въз основа на тема връщане, когато ""По подразбиране"" опция е избрана.",module,Magento_Wishlist
 "Max Emails Allowed to be Sent","Макс имейли могат да се изпращат",module,Magento_Wishlist
+"10 by default. Max - 10000","10 по подразбиране. Макс - 10000",module,Magento_Wishlist
 "Email Text Length Limit","Email текст дължина лимит",module,Magento_Wishlist
+"255 by default","255 по подразбиране",module,Magento_Wishlist
 "General Options","Основни параметри",module,Magento_Wishlist
 Enabled,Активиран,module,Magento_Wishlist
 "My Wish List Link","Връзка към моя Списък с желани продукти",module,Magento_Wishlist
@@ -6797,5 +7076,3 @@ Configure,"Конфигуриране на",module,Magento_Wishlist
 Delete,Изтрий,module,Magento_Wishlist
 "Product Details and Comment","Информация за продукта и коментар",module,Magento_Wishlist
 "Add To Wishlist","Добави към Списък с желани продукти",module,Magento_Wishlist
-"Address Book","Адресна книга",theme,frontend/Magento/luma
-"Account Information","Информация за акаунта",theme,frontend/Magento/luma
